@@ -44,6 +44,7 @@ class ProductsRender {
 
             let cardPrice = document.createElement('div');
             cardPrice.classList.add('card_price');
+
             let cardPriceValue = document.createElement('span');
             cardPriceValue.classList.add('card_price__value');
             cardPriceValue.innerText = card.price;
@@ -54,17 +55,18 @@ class ProductsRender {
             cardUserPanel.classList.add('card_price__control-panel');
             cardPrice.appendChild(cardUserPanel);
 
-            let cardLike = document.createElement('button');
-            cardLike.innerText = 'Like';
-            cardUserPanel.appendChild(cardLike);
+            // let cardLike = document.createElement('button');
+            // cardLike.innerText = 'Like';
+            // cardUserPanel.appendChild(cardLike);
 
             let cardBuy = document.createElement('button');
-            let cardBuyIcon = document.createElement('img');
-            cardBuyIcon.setAttribute('src', 'assets/images/icon_cart.png');
-            cardBuyIcon.classList.add('icon_add-to-cart');
-            cardBuy.appendChild(cardBuyIcon);
+            // let cardBuyIcon = document.createElement('img');
+            // cardBuyIcon.setAttribute('src', 'assets/images/icon_cart.png');
+            // cardBuyIcon.classList.add('icon_add-to-cart');
             cardBuy.classList.add('add-to-cart');
             cardUserPanel.appendChild(cardBuy);
+            // cardBuy.appendChild(cardBuyIcon);
+            cardBuy.setAttribute('value', 'Add to Cart');
             cardBuy.setAttribute('data-value', card.price);
             cardBuy.setAttribute('data-name', card.title);
             cardBuy.setAttribute('data-url', 'assets/images/' + card.url + '.jpg');
@@ -73,8 +75,9 @@ class ProductsRender {
                 this.buyButtonClickCallback(card);
             });
 
-            cardDescription.addEventListener('mouseenter', () => {
+            cardDescription.addEventListener('mouseover', () => {
                 cardDescription.classList.add('full');
+                // cardWrap.classList.add('open');
             });
             cardDescription.addEventListener('mouseout', () => {
                 cardDescription.classList.remove('full');

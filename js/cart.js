@@ -13,7 +13,7 @@ class Cart {
             });
         }
 
-        console.log(this.positions);
+        // console.log(this.positions);
     }
 
     getPositions() {

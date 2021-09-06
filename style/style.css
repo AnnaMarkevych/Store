@@ -1,3 +1,29 @@
+@font-face {
+    font-family: "ZnikomitNo25";
+    font-weight: 200;
+    src: url("../assets/fonts/Znikomitno25.otf");
+}
+@font-face {
+    font-family: "ALS CSKA Regular";
+    font-weight: 200;
+    src: url("../assets/fonts/regular.otf");
+}
+@font-face {
+    font-family: "Kerola";
+    font-weight: 400;
+    src: url("../assets/fonts/kerola-normal.woff2");
+}
+@font-face {
+    font-family: "Kerola Bold";
+    font-weight: 600;
+    src: url("../assets/fonts/kerola-bold.woff2");
+}
+@font-face {
+    font-family: "Kerola Light";
+    font-weight: 200;
+    src: url("../assets/fonts/kerola-light.woff2");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -21,6 +47,7 @@ button{
     border: none;
     outline: none;
     background: transparent;
+    cursor: pointer;
 }
 #btn_cart{
     width: 100px;
@@ -37,7 +64,7 @@ button{
     z-index: -10;
     opacity: 0;
 }
-.active {
+.overlay.active {
     background: rgba(11, 10, 10, 0.33);
     z-index: 100;
     opacity: 1;
@@ -46,22 +73,43 @@ button{
 
 #store{
     position: absolute;
-    top: 30px;
+    top: 100px;
+    /*display: flex;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+    z-index: 1;
+    display: none;
+}
+#store.visible{
+    display: flex;
+}
+#store_catalog{
+    position: absolute;
+    top: 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
+    width: 75%;
     z-index: 1;
 }
+#store_catalog.hidden{
+    display: none;
+}
 .card_wrap {
+    /*position: relative;*/
     width: 20%;
-    height: 450px;
+    height: 400px;
     box-shadow: 0 0 10px 0 rgba(41,41,41,.1);
     margin: 1rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition: box-shadow .5s;
+}
+.card_wrap.open {
+    height: auto;
 }
 .card_wrap:hover{
     cursor: pointer;
@@ -72,25 +120,35 @@ button{
     display: none;
 }
 .card_title{
+    font-family: "Kerola Bold";
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
+    /*padding: 1rem;*/
 }
-.card_wrap>img {
-    width: 100%;
+.card_wrap > img {
+    width: 85%;
     display: block;
-    height: auto;
+    /*height: 120px;*/
+    padding: 0 1rem;
+    margin: 0 auto;
 }
 .card_description{
-    font-size: .8rem;
-    line-height: 15px;
-    height: 80px;
+    font-family: "Kerola Light";
+    font-size: .6rem;
+    line-height: 13px;
+    height: 100px;
     overflow: hidden;
-    position: relative;
     transition: height 2s;
+    padding: 1rem 0;
+    position: relative;
 }
+/*.card_wrap:has(.card_description:hover)  {*/
+    /*height: max-content;*/
+/*}*/
 .card_description.full{
     height: 100%;
+    /*height: max-content;*/
 }
 .card_description:after {
     content: "";
@@ -102,13 +160,17 @@ button{
     background: linear-gradient(180deg, transparent, white 50%);
 }
 .card_brand{
+    font-family: "Kerola";
     text-transform: uppercase;
+    font-size: .7rem;
+    /*padding: 0 1rem;*/
 }
 .card_availability{
-    font-size: .8rem;
+    font-size: .7rem;
+    /*padding: 0 1rem;*/
 }
 .available {
-    color: green;
+    color: #545151;
 }
 .notAvailable{
     color: red;
@@ -119,26 +181,21 @@ button{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /*padding: 1rem 1rem;*/
 }
 .card_price__value {
-    font-size: 24px;
+    font-family: "Kerola Bold";
+    font-size: 16px;
     color: red;
-    margin: 0 1rem;
+    width: 35%;
+    /*margin: 0 1rem;*/
 }
 .card_price__control-panel {
     display: flex;
     flex-direction: row;
+    width: 60%;
 }
-.card_price__control-panel>button {
-    background: transparent;
-    border: 1px solid transparent;
-    cursor: pointer;
-    transition: border 1s;
-}
-.card_price__control-panel>button:hover{
-    border: 1px solid #6a7481b8;
-    background: #6a74811a;
-}
+
 .cart_wrap {
     width: 621px;
     height: 450px;
@@ -176,7 +233,7 @@ button{
     cursor: pointer;
     z-index: 102;
 }
-.cart_header-btn-delete>img{
+.cart_header-btn-delete > img{
     width: 50%;
 }
 .cart_title {
@@ -201,7 +258,7 @@ button{
     justify-content: center;
     align-items: center;
 }
-.close_cart>img{
+.close_cart > img{
     width: 50%;
 }
 .close_cart:hover > img{
@@ -301,7 +358,6 @@ button{
     cursor: pointer;
 }
 
-
 .cart_list__item-subTotal{
     padding: .5rem 0;
     font-size: .9rem;
@@ -352,13 +408,31 @@ button{
     outline: none;
 }
 .add-to-cart{
-    padding: 0;
+    /*padding: 0;*/
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    /*padding: .5rem 0;*/
+    border: 1px solid #00000030;
+    cursor: pointer;
+    transition: border 1s, background-color .5s;
+    background: #48916496;
 }
-.add-to-cart > img {
-    display: block;
-    width: 50%;
-    margin: 0 auto;
+.add-to-cart:hover{
+    border: 1px solid #6a7481b8;
+    background: #489164cc;
 }
+.add-to-cart:after{
+    content: 'Add to cart';
+    font-family: Kerola;
+    font-size: .7rem;
+    /*border: 1px solid red;*/
+}
+/*.add-to-cart > img {*/
+    /*display: block;*/
+    /*width: 50%;*/
+    /*!*margin: 0 auto;*!*/
+/*}*/
 .checked {
     border: 4px solid yellow;
 }
