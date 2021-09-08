@@ -107,7 +107,8 @@ let catalogMenu = [
                 availability: true
             },
 
-        ]
+        ],
+        sale: true
     },
     {
         title: 'Vegetables',
@@ -195,31 +196,38 @@ let catalogMenu = [
                 availability: true
             }
 
-        ]
+        ],
+        sale: true
     },
     {
         title: 'MeatFish',
-        url: 'meat&fish'
+        url: 'meat&fish',
+        sale: false
     },
     {
         title: 'Sweets',
-        url: 'sweets'
+        url: 'sweets',
+        sale: false
     },
     {
         title: 'Bakery',
-        url: 'bakery'
+        url: 'bakery',
+        sale: false
     },
     {
         title: 'Grocery',
-        url: 'grocery'
+        url: 'grocery',
+        sale: false
     },
     {
         title: 'Dairy',
-        url: 'dairy'
+        url: 'dairy',
+        sale: true
     },
     {
         title: 'Drinks',
-        url: 'drinks'
+        url: 'drinks',
+        sale: false
     }
 ];
 
@@ -239,6 +247,8 @@ let cartRender = new CartRender(cart, cartHtml, {
         buyButton.classList.remove('disabled');
     }
 });
+cartRender.render();
+
 let breadCrumbs = document.querySelector('.breadcrumbs');
 
 

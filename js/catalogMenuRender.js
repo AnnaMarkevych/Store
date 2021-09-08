@@ -21,11 +21,15 @@ class CatalogMenuRender {
             cardTitle.innerText = category.title;
             categoryMenu.appendChild(cardTitle);
 
+            if (category.sale === true){
+                let ribbon = document.createElement('span');
+                ribbon.classList.add('ribbon');
+                categoryMenu.appendChild(ribbon);
+                ribbon.innerText = 'SALE'
+            }
+
         });
     }
-
-
-
 
 }
 

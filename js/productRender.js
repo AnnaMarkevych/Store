@@ -78,9 +78,14 @@ class ProductsRender {
                 cardBuy.classList.add('not-available');
             }
 
+
             cardBuy.addEventListener('click', () => {
+                btnCart.classList.remove('shake');
                 this.buyButtonClickCallback(card);
                 cardBuy.setAttribute('disabled', 'disabled');
+                btnCart.classList.add('shake');
+                // setInterval(btnCart.classList.remove('shake'), 5000);
+                console.log('Cart Shake!');
                 // cardBuy.setAttribute('value', 'Added to Cart');
                 cardBuy.classList.add('disabled');
             });

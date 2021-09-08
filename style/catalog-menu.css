@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 .category-menu {
-    /*position: relative;*/
+    position: relative;
     width: 20%;
     height: 400px;
     box-shadow: 0 0 10px 0 rgba(41,41,41,.1);

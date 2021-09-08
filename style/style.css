@@ -51,7 +51,7 @@ button{
 }
 
 .overlay {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -66,13 +66,18 @@ button{
     transition: opacity 1s;
 }
 
+main{
+    height: calc(100vh - 7vh - 36px);
+}
+
 #store{
     position: absolute;
     top: 105px;
-    /*display: flex;*/
+    left: 50%;
+    transform: translateX(-50%);
     flex-direction: row;
     flex-wrap: wrap;
-    width: 75%;
+    width: 1000px;
     z-index: 1;
     display: none;
 }
@@ -81,19 +86,60 @@ button{
 }
 #store_catalog{
     position: absolute;
-    top: 105px;
+    top: 7vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 75%;
+    width: 1000px;
     z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #store_catalog.hidden{
     display: none;
 }
+
+/*Ribbon for SALE*/
+.ribbon {
+    display: block;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: -26px;
+    margin-right: -10px;
+    background: #f7a6c9;
+    position: relative;
+    top: -215px;
+    color: white;
+    font-family: "Kerola Bold";
+}
+.ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+}
+.ribbon:before {
+    height: 0;
+    width: 0;
+    bottom: -10px;
+    left: 0;
+    border-top: 10px solid #e991b7;
+    border-left: 10px solid transparent;
+}
+.ribbon:after {
+    height: 0;
+    width: 0;
+    right: 0;
+    bottom: -10px;
+    border-top: 10px solid #e991b7;
+    border-right: 10px solid transparent;
+}
+
+
+/*Styles for cards of product*/
 .card_wrap {
     /*position: relative;*/
-    width: 20%;
+    width: 22%;
     height: 400px;
     box-shadow: 0 0 10px 0 rgba(41,41,41,.1);
     margin: 1rem;
@@ -114,12 +160,12 @@ button{
 .hidden{
     display: none;
 }
+
 .card_title{
     font-family: "Kerola Bold";
     width: 100%;
     font-size: 16px;
     text-align: center;
-    /*padding: 1rem;*/
 }
 .card_wrap > img {
     width: 85%;
@@ -128,6 +174,7 @@ button{
     padding: 0 1rem;
     margin: 0 auto;
 }
+
 .card_description{
     font-family: "Kerola Light";
     font-size: .6rem;
@@ -138,13 +185,11 @@ button{
     padding: 1rem 0;
     position: relative;
 }
-/*.card_wrap:has(.card_description:hover)  {*/
-    /*height: max-content;*/
-/*}*/
+
 .card_description.full{
     height: 100%;
-    /*height: max-content;*/
 }
+
 .card_description:after {
     content: "";
     position: absolute;
@@ -154,16 +199,17 @@ button{
     height: 40px;
     background: linear-gradient(180deg, transparent, white 50%);
 }
+
 .card_brand{
     font-family: "Kerola";
     text-transform: uppercase;
     font-size: .7rem;
-    /*padding: 0 1rem;*/
 }
+
 .card_availability{
     font-size: .7rem;
-    /*padding: 0 1rem;*/
 }
+
 .available {
     color: #545151;
 }
@@ -176,14 +222,12 @@ button{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /*padding: 1rem 1rem;*/
 }
 .card_price__value {
     font-family: "Kerola Bold";
     font-size: 16px;
     color: red;
     width: 35%;
-    /*margin: 0 1rem;*/
 }
 .card_price__control-panel {
     display: flex;
@@ -191,6 +235,43 @@ button{
     width: 60%;
 }
 
+/*Styles for button Add-to-cart*/
+.add-to-cart{
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #00000030;
+    cursor: pointer;
+    transition: border 1s, background-color .5s;
+    background: #99db7699;
+    color: black;
+}
+.add-to-cart:hover{
+    border: 1px solid #6a7481b8;
+    background: #99db76;
+}
+.add-to-cart:after{
+    content: 'Add to cart';
+    font-family: Kerola;
+    font-size: .7rem;
+}
+.disabled.add-to-cart:after{
+    content: 'In cart';
+    font-family: "Kerola Bold";
+}
+.not-available.add-to-cart:after{
+    content: 'No available';
+}
+.not-available.add-to-cart{
+    background: #f7a6c98c;
+}
+.disabled.add-to-cart{
+    border: 1px solid #6a7481b8;
+    background: #f7a6c9;
+}
+
+
+/*Styles for Cart*/
 .cart_wrap {
     width: 621px;
     height: 450px;
@@ -235,9 +316,6 @@ button{
     text-align: left;
     font-size: 2rem;
     padding: 1.5rem;
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
     width: 50%;
 }
 .close_cart{
@@ -268,7 +346,6 @@ button{
 .cart_footer{
     width: 100%;
     position: absolute;
-    /*top: 150px;*/
     bottom: 0;
     display: flex;
     flex-direction: row;
@@ -347,15 +424,12 @@ button{
     background-size: 25%;
     background-position-x: 25px;
     background-position-y: 22px;
-    /*box-shadow: 2px 8px 20px 0 rgba(31,32,68,0.25);*/
-
 }
 .no-hover{
     background-image: url("../assets/images/icon_delete.png");
     z-index: 1;
 }
 .hover {
-    /*box-shadow: 2px 8px 20px 0 rgba(31,32,68,0.25);*/
     z-index: 2;
     box-shadow: 0 0 10px 0 rgba(31,32,68,0.25);
     transition: box-shadow 0.3s, transform 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
@@ -372,8 +446,6 @@ button{
     line-height: .9rem;
 }
 .cart_list__item-value{
-    /*position: absolute;*/
-    /*left: 85px;*/
     font-size: 0.7rem;
     color: #918c8c;
     padding: 1rem 0;
@@ -410,42 +482,6 @@ button{
     text-align: center;
     border: 1px solid rgb(239, 239, 239);
     outline: none;
-}
-.add-to-cart{
-    /*padding: 0;*/
-    width: 100%;
-    height: 25px;
-    border-radius: 3px;
-    /*padding: .5rem 0;*/
-    border: 1px solid #00000030;
-    cursor: pointer;
-    transition: border 1s, background-color .5s;
-    background: #99db7699;
-    color: black;
-}
-.add-to-cart:hover{
-    border: 1px solid #6a7481b8;
-    background: #99db76;
-}
-.add-to-cart:after{
-    content: 'Add to cart';
-    font-family: Kerola;
-    font-size: .7rem;
-    /*border: 1px solid red;*/
-}
-.disabled.add-to-cart:after{
-    content: 'In cart';
-    font-family: "Kerola Bold";
-}
-.not-available.add-to-cart:after{
-    content: 'No available';
-}
-.not-available.add-to-cart{
-    background: #f7a6c98c;
-}
-.disabled.add-to-cart{
-    border: 1px solid #6a7481b8;
-    background: #f7a6c9;
 }
 
 .checked {
@@ -505,7 +541,4 @@ button{
     font-size: 2rem;
     padding: 2rem;
     text-align: center;
-}
-.test{
-    /*height: auto;*/
 }

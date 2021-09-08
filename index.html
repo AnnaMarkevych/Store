@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/catalog-menu.css">
+    <link rel="stylesheet" href="style/shake.css">
 </head>
 <body>
 <header class="header">
@@ -23,13 +24,11 @@
         <div class="logo">
             <img src="assets/images/foog-logo.png" alt="logo-bike"> FOOD
         </div>
-        <nav class="navigation">
             <ul class="navigation-items">
-                <li><button class="catalog" id="btn_catalog">CATALOG</button></li>
+                <li><button class="catalog" id="btn_catalog">Catalog</button></li>
                 <li><input type="search"></li>
-                <li><button>Contacts</button></li>
+                <li><button class="contacts">Contacts</button></li>
             </ul>
-        </nav>
         <button id="btn_cart" class="btn_cart">
             <img src="assets/images/cart-logo.png" alt="">
             <div class="cart_count"></div>
@@ -43,11 +42,14 @@
     </li>
 </ul>
 <div class="catalog-menu"></div>
-
 <div class="overlay"> </div>
-<div id="store_catalog"></div>
-<div id="store"></div>
-<div id="cart" class=""></div>
+<main>
+    <div id="store_catalog"></div>
+    <div id="store"></div>
+    <div id="cart"></div>
+</main>
+<footer></footer>
+
 
 </body>
 <script type="text/javascript" src="js/cart.js"></script>
