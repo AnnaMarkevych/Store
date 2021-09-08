@@ -10,6 +10,7 @@ class ProductsRender {
             let cardWrap = document.createElement('div');
             cardWrap.classList.add('card_wrap');
             this.rootElement.appendChild(cardWrap);
+            cardWrap.setAttribute('id', 'card_' + card.id);
 
             let cardTitle = document.createElement('div');
             cardTitle.classList.add('card_title');
@@ -32,13 +33,13 @@ class ProductsRender {
 
             let cardAvailability = document.createElement('div');
             cardAvailability.classList.add('card_availability');
-            if (card.availability === true){
-                cardAvailability.innerText = 'Available';
-                cardAvailability.classList.add('available');
-            } else {
-                cardAvailability.innerText = 'Not available';
-                cardAvailability.classList.add('notAvailable');
-            }
+            // if (card.availability === true){
+            //     cardAvailability.innerText = 'Available';
+            //     cardAvailability.classList.add('available');
+            // } else {
+            //     cardAvailability.innerText = 'Not available';
+            //     cardAvailability.classList.add('notAvailable');
+            // }
             // cardAvailability.innerText = card.description;
             cardWrap.appendChild(cardAvailability);
 
@@ -55,10 +56,6 @@ class ProductsRender {
             cardUserPanel.classList.add('card_price__control-panel');
             cardPrice.appendChild(cardUserPanel);
 
-            // let cardLike = document.createElement('button');
-            // cardLike.innerText = 'Like';
-            // cardUserPanel.appendChild(cardLike);
-
             let cardBuy = document.createElement('button');
             // let cardBuyIcon = document.createElement('img');
             // cardBuyIcon.setAttribute('src', 'assets/images/icon_cart.png');
@@ -71,8 +68,21 @@ class ProductsRender {
             cardBuy.setAttribute('data-name', card.title);
             cardBuy.setAttribute('data-url', 'assets/images/' + card.url + '.jpg');
 
+            if (card.availability === true){
+                cardAvailability.innerText = 'Available';
+                cardAvailability.classList.add('available');
+            } else {
+                cardAvailability.innerText = 'Not available';
+                cardAvailability.classList.add('notAvailable');
+                cardBuy.setAttribute('disabled', 'disabled');
+                cardBuy.classList.add('not-available');
+            }
+
             cardBuy.addEventListener('click', () => {
                 this.buyButtonClickCallback(card);
+                cardBuy.setAttribute('disabled', 'disabled');
+                // cardBuy.setAttribute('value', 'Added to Cart');
+                cardBuy.classList.add('disabled');
             });
 
             cardDescription.addEventListener('mouseover', () => {

@@ -6,7 +6,7 @@ let catalogMenu = [
         url: 'fruits',
         products: [
             {
-                id: 11111111,
+                id: 111,
                 title: 'Oranges',
                 url: 'card_1',
                 price: '26.00',
@@ -15,64 +15,98 @@ let catalogMenu = [
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor \' +\n' +
                 '        \'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \' +\n' +
                 '        \'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                brand: 'BRAND',
+                brand: 'Fit Product',
                 availability: true
             },
             {
-                id: 22222222,
+                id: 222,
                 title: 'Apples',
                 url: 'card_2',
                 price: '35.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                brand: 'BRAND',
+                brand: 'Fit Product',
                 availability: false
             },
             {
-                id: 3333333333,
+                id: 333,
                 title: 'Bananas',
                 url: 'card_3',
                 price: '19.50',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                brand: 'BRAND',
+                brand: 'Organic',
                 availability: true
             },
             {
-                id: 44444444444,
+                id: 444,
                 title: 'Green Grape',
                 url: 'card_4',
                 price: '25.50',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                brand: 'BRAND',
+                brand: 'Organic',
                 availability: false
             },
             {
-                id: 55555555555,
+                id: 555,
                 title: 'Red Grape',
                 url: 'card_5',
                 price: '29.50',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                brand: 'BRAND',
+                brand: 'New Line',
                 availability: true
             },
             {
-                id: 6666,
+                id: 666,
                 title: 'Kivi',
                 url: 'card_6',
                 price: '20.50',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                brand: 'BRAND',
+                brand: 'Fit Product',
                 availability: true
             },
+            {
+                id: 777,
+                title: 'Cherry',
+                url: 'cherry',
+                price: '56',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
+                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                brand: 'Organic',
+                availability: true
+            },
+            {
+                id: 888,
+                title: 'Lime',
+                url: 'lime',
+                price: '48',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
+                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                brand: 'Organic',
+                availability: true
+            },
+            {
+                id: 999,
+                title: 'Lemon',
+                url: 'lemon',
+                price: '32.5',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
+                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                brand: 'New Line',
+                availability: true
+            },
+
         ]
     },
     {
@@ -80,29 +114,87 @@ let catalogMenu = [
         url: 'vegetables',
         products: [
             {
-                id: 111,
-                title: 'Oranges11',
-                url: 'card_1',
-                price: '26.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor \' +\n' +
-                '        \'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \' +\n' +
-                '        \'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                brand: 'BRAND',
-                availability: true
-            },
-            {
-                id: 222,
-                title: 'Apples222',
-                url: 'card_2',
-                price: '35.00',
+                id: 1111,
+                title: 'Potatoes',
+                url: 'potatoes',
+                price: '11.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                brand: 'BRAND',
+                brand: 'Organic',
+                availability: true
+            },
+            {
+                id: 2222,
+                title: 'Carrot',
+                url: 'carrot',
+                price: '15.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Organic',
+                availability: true
+            },
+            {
+                id: 3333,
+                title: 'Onion',
+                url: 'onion',
+                price: '12.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: true
+            },
+            {
+                id: 4444,
+                title: 'Zucchini',
+                url: 'zucchini',
+                price: '18.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: true
+            },
+            {
+                id: 5555,
+                title: 'Eggplant',
+                url: 'eggplant',
+                price: '28.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
                 availability: false
+            },
+            {
+                id: 6666,
+                title: 'Cabbage',
+                url: 'cabbage',
+                price: '6.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Organic',
+                availability: true
+            },
+            {
+                id: 7777,
+                title: 'Brokkoli',
+                url: 'brokkoli',
+                price: '18.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Organic',
+                availability: true
+            },
+            {
+                id: 8888,
+                title: 'Mashrooms',
+                url: 'mashrooms',
+                price: '30.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'New Line',
+                availability: true
             }
+
         ]
     },
     {
@@ -133,12 +225,21 @@ let catalogMenu = [
 
 
 let cart = new Cart();
-let script = document.querySelector('#store');
+let store_category = document.querySelector('#store');
 let store_catalog = document.querySelector('#store_catalog');
 
 let cartHtml = document.querySelector('#cart');
-let cartRender = new CartRender(cart,cartHtml);
-let breadcrumbs = document.querySelector('.breadcrumbs');
+let cartRender = new CartRender(cart, cartHtml, {
+    onDeleteProduct: (productId) => {
+        console.log("DELETE PRODUCT ID " + productId);
+
+        let buyButton = store_category.querySelector('#card_'+ productId)
+            .querySelector('.add-to-cart');
+        buyButton.removeAttribute('disabled');
+        buyButton.classList.remove('disabled');
+    }
+});
+let breadCrumbs = document.querySelector('.breadcrumbs');
 
 
 let catalogMenuRender = new CatalogMenuRender(catalogMenu, store_catalog);
@@ -158,16 +259,34 @@ catalogMenu.forEach((category) => {
 
     categoryHtml.addEventListener('click', ()=>{
         store_catalog.classList.add('hidden');
-        script.classList.add('visible');
-        let productsRender = new ProductsRender(category.products, script, buyButtonClickCallback);
+        store_category.classList.add('visible');
+        store_category.innerHTML = '';
+        let productsRender = new ProductsRender(category.products, store_category, buyButtonClickCallback);
         productsRender.render();
         cartRender.render();
-        let breadcrumb = document.createElement('li');
-        breadcrumb.innerText = category.title;
-        breadcrumbs.appendChild(breadcrumb);
+
+        createBreadCrumb(category.title);
+
     });
 });
 
+
+function createBreadCrumb(title) {
+    let breadCrumbHome = document.querySelector('.breadcrumb-home');
+    breadCrumbHome.classList.add('visible');
+
+    let breadCrumb = document.createElement('li');
+    breadCrumb.innerText = title;
+    breadCrumbs.appendChild(breadCrumb);
+
+    breadCrumbHome.addEventListener('click', ()=> {
+        breadCrumbHome.classList.remove('visible');
+        store_catalog.classList.remove('hidden');
+        store_category.classList.remove('visible');
+
+        breadCrumb.remove();
+    })
+}
 
 let overlay  = document.querySelector('.overlay');
 let btnCart = document.querySelector('#btn_cart');

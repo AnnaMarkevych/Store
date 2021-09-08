@@ -1,8 +1,10 @@
 class CartRender {
-    constructor(cart,rootElement){
+    constructor(cart,rootElement, cartListener){
         this.rootElement = rootElement;
         this.cart = cart;
         this.sum = 0;
+
+        this.cartListener = cartListener
     }
 
     clean () {
@@ -63,10 +65,14 @@ class CartRender {
         cartFooterColumn1.classList.add('cart_footer-column');
         this.cartFooter.appendChild(cartFooterColumn1);
 
+        let cartFooterShopLogo = document.createElement('img');
+        cartFooterShopLogo.setAttribute('src', 'assets/images/foog-logo.png');
+        cartFooterColumn1.appendChild(cartFooterShopLogo);
+
         let  cartFooterShopName = document.createElement('span');
         cartFooterShopName.classList.add('cart_footer-shop-name');
         cartFooterColumn1.appendChild(cartFooterShopName);
-        cartFooterShopName.innerHTML = 'Shop Name';
+        cartFooterShopName.innerHTML = 'FOOD';
 
         let cartFooterColumn2 = document.createElement('div');
         cartFooterColumn2.classList.add('cart_footer-column');
@@ -259,19 +265,29 @@ class CartRender {
 
         cartListItemId.textContent = 'id '+ card.id;
         cartListItemName.textContent = card.title;
-        cartListItemValue.textContent = "Price" + card.price;
+        cartListItemValue.textContent = "Price " + card.price;
         cartListItemSpanControlNumber.textContent = 'Numbers';
 
 
     }
 
     renderSum(){
+        let cartCount = document.querySelector('.cart_count');
         let sum=0;
+        let cart_count = 0;
 
         let positions = this.cart.getPositions();
 
         for (let position of positions.values()) {
             sum = sum + position.product.price * position.count;
+            cart_count +=position.count;
+            console.log(cart_count);
+        }
+        if (cart_count > 0){
+            cartCount.classList.add('visible');
+            cartCount.innerHTML = cart_count;
+        } else {
+            cartCount.classList.remove('visible');
         }
 
 
@@ -281,6 +297,8 @@ class CartRender {
     deleteCartListItem(productId){
         this.cart.removeProduct(productId);
         this.renderSum();
+
+        this.cartListener.onDeleteProduct(productId);
     }
 
 }

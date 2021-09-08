@@ -49,12 +49,7 @@ button{
     background: transparent;
     cursor: pointer;
 }
-#btn_cart{
-    width: 100px;
-    background: red;
-    padding: 1rem;
-    cursor: pointer;
-}
+
 .overlay {
     width: 100vw;
     height: 100vh;
@@ -73,7 +68,7 @@ button{
 
 #store{
     position: absolute;
-    top: 100px;
+    top: 105px;
     /*display: flex;*/
     flex-direction: row;
     flex-wrap: wrap;
@@ -86,7 +81,7 @@ button{
 }
 #store_catalog{
     position: absolute;
-    top: 100px;
+    top: 105px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -214,7 +209,7 @@ button{
     /*display: block;*/
     opacity: 1;
     transition: opacity 1s;
-    z-index: 101;
+    z-index: 110;
 }
 .cart_header{
     width: 100%;
@@ -234,7 +229,7 @@ button{
     z-index: 102;
 }
 .cart_header-btn-delete > img{
-    width: 50%;
+    width: 35%;
 }
 .cart_title {
     text-align: left;
@@ -320,12 +315,21 @@ button{
     display: flex;
     flex-direction: column;
 }
+.cart_footer-column:nth-child(1){
+    flex-direction: row;
+    align-items: flex-start;
+}
+.cart_footer-column:nth-child(1) > img{
+    width: 25%;
+}
 .cart_footer-column:nth-child(3){
     align-items: flex-end;
     padding: 0.5rem;
 }
 .cart_footer-shop-name{
     padding: 0.5rem 0;
+    font-family: "ALS CSKA Regular";
+    font-size: 1.5rem;
 }
 .cart_footer-span-total-sum{
     padding: 0.5rem 0;
@@ -340,9 +344,9 @@ button{
     width: 70px;
     height: 75px;
     background-repeat: no-repeat;
-    background-size: 40%;
-    background-position-x: 20px;
-    background-position-y: 16px;
+    background-size: 25%;
+    background-position-x: 25px;
+    background-position-y: 22px;
     /*box-shadow: 2px 8px 20px 0 rgba(31,32,68,0.25);*/
 
 }
@@ -416,11 +420,12 @@ button{
     border: 1px solid #00000030;
     cursor: pointer;
     transition: border 1s, background-color .5s;
-    background: #48916496;
+    background: #99db7699;
+    color: black;
 }
 .add-to-cart:hover{
     border: 1px solid #6a7481b8;
-    background: #489164cc;
+    background: #99db76;
 }
 .add-to-cart:after{
     content: 'Add to cart';
@@ -428,11 +433,21 @@ button{
     font-size: .7rem;
     /*border: 1px solid red;*/
 }
-/*.add-to-cart > img {*/
-    /*display: block;*/
-    /*width: 50%;*/
-    /*!*margin: 0 auto;*!*/
-/*}*/
+.disabled.add-to-cart:after{
+    content: 'In cart';
+    font-family: "Kerola Bold";
+}
+.not-available.add-to-cart:after{
+    content: 'No available';
+}
+.not-available.add-to-cart{
+    background: #f7a6c98c;
+}
+.disabled.add-to-cart{
+    border: 1px solid #6a7481b8;
+    background: #f7a6c9;
+}
+
 .checked {
     border: 4px solid yellow;
 }
