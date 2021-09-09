@@ -11,8 +11,6 @@
     90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
     100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-/*.shake:hover,*/
-/*.shake:focus */
 .shake{
     -webkit-animation-name: shake;
     -webkit-animation-duration: 0.8s;

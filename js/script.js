@@ -16,7 +16,8 @@ let catalogMenu = [
                 '        \'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \' +\n' +
                 '        \'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 brand: 'Fit Product',
-                availability: true
+                availability: true,
+                sale: '10%'
             },
             {
                 id: 222,
@@ -27,7 +28,8 @@ let catalogMenu = [
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 brand: 'Fit Product',
-                availability: false
+                availability: false,
+                sale: '10%'
             },
             {
                 id: 333,
@@ -38,7 +40,8 @@ let catalogMenu = [
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 brand: 'Organic',
-                availability: true
+                availability: true,
+                sale: '15%'
             },
             {
                 id: 444,
@@ -49,7 +52,8 @@ let catalogMenu = [
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 brand: 'Organic',
-                availability: false
+                availability: false,
+                sale: '15%'
             },
             {
                 id: 555,
@@ -60,7 +64,8 @@ let catalogMenu = [
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 brand: 'New Line',
-                availability: true
+                availability: true,
+                sale: '10%'
             },
             {
                 id: 666,
@@ -71,7 +76,8 @@ let catalogMenu = [
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 brand: 'Fit Product',
-                availability: true
+                availability: true,
+                sale: '20%'
             },
             {
                 id: 777,
@@ -82,7 +88,8 @@ let catalogMenu = [
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 brand: 'Organic',
-                availability: true
+                availability: true,
+                sale: '5%'
             },
             {
                 id: 888,
@@ -93,7 +100,8 @@ let catalogMenu = [
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 brand: 'Organic',
-                availability: true
+                availability: true,
+                sale: '5%'
             },
             {
                 id: 999,
@@ -104,7 +112,8 @@ let catalogMenu = [
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 brand: 'New Line',
-                availability: true
+                availability: true,
+                sale: '8%'
             },
 
         ],
@@ -123,7 +132,8 @@ let catalogMenu = [
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 brand: 'Organic',
-                availability: true
+                availability: true,
+                sale: '10%'
             },
             {
                 id: 2222,
@@ -133,7 +143,8 @@ let catalogMenu = [
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Organic',
-                availability: true
+                availability: true,
+                sale: '10%'
             },
             {
                 id: 3333,
@@ -143,7 +154,8 @@ let catalogMenu = [
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Fit Product',
-                availability: true
+                availability: true,
+                sale: '10%'
             },
             {
                 id: 4444,
@@ -153,7 +165,8 @@ let catalogMenu = [
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Fit Product',
-                availability: true
+                availability: true,
+                sale: '10%'
             },
             {
                 id: 5555,
@@ -163,7 +176,8 @@ let catalogMenu = [
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Fit Product',
-                availability: false
+                availability: false,
+                sale: '10%'
             },
             {
                 id: 6666,
@@ -173,7 +187,8 @@ let catalogMenu = [
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Organic',
-                availability: true
+                availability: true,
+                sale: '10%'
             },
             {
                 id: 7777,
@@ -183,7 +198,8 @@ let catalogMenu = [
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Organic',
-                availability: true
+                availability: true,
+                sale: '10%'
             },
             {
                 id: 8888,
@@ -193,7 +209,8 @@ let catalogMenu = [
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
                 brand: 'New Line',
-                availability: true
+                availability: true,
+                sale: '10%'
             }
 
         ],
@@ -202,17 +219,265 @@ let catalogMenu = [
     {
         title: 'MeatFish',
         url: 'meat&fish',
+        products: [
+            {
+                id: 11111,
+                title: 'Salmon',
+                url: 'salmon',
+                price: '350.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'New Line',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 22222,
+                title: 'Trout',
+                url: 'trout',
+                price: '250.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'New Line',
+                availability: false,
+                sale: '10%'
+            },
+            {
+                id: 33333,
+                title: 'Mackerel',
+                url: 'mackerel',
+                price: '90.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'New Line',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 44444,
+                title: 'Beef',
+                url: 'beef',
+                price: '199.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Organic',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 55555,
+                title: 'Chicken',
+                url: 'chicken',
+                price: '85.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Organic',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 66666,
+                title: 'Pork',
+                url: 'pork',
+                price: '170.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Organic',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 77777,
+                title: 'Rabbit',
+                url: 'rabbit',
+                price: '400.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: false,
+                sale: '10%'
+            },
+            {
+                id: 88888,
+                title: 'Turkey',
+                url: 'turkey',
+                price: '200.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: true,
+                sale: '10%'
+            },
+        ],
         sale: false
     },
     {
         title: 'Sweets',
         url: 'sweets',
-        sale: false
+        sale: false,
+        subProducts: [
+            {
+                title: 'Sweets1',
+                url: 'bakery',
+                sale: true,
+                products: [
+                    {
+                        id: 11,
+                        title: 'Oran',
+                        url: 'card_1',
+                        price: '86.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
+                        'ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor \' +\n' +
+                        '        \'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \' +\n' +
+                        '        \'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 22,
+                        title: 'Ap',
+                        url: 'card_2',
+                        price: '65.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
+                        'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        brand: 'Fit Product',
+                        availability: false,
+                        sale: '10%'
+                    },
+                    ]
+                },
+            {
+                title: 'Sweets2',
+                url: 'bakery',
+                sale: false,
+                products: [
+                    {
+                        id: 121,
+                        title: 'Oan',
+                        url: 'card_1',
+                        price: '86.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
+                        'ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor \' +\n' +
+                        '        \'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \' +\n' +
+                        '        \'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 212,
+                        title: 'Ap6',
+                        url: 'card_2',
+                        price: '65.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
+                        'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        brand: 'Fit Product',
+                        availability: false,
+                        sale: '10%'
+                    },
+                ]
+            }
+        ]
     },
     {
         title: 'Bakery',
         url: 'bakery',
-        sale: false
+        sale: false,
+        products: [
+            {
+                id: 11111111,
+                title: 'Bread',
+                url: 'bread',
+                price: '20.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 22222222,
+                title: 'Baguette',
+                url: 'baguette',
+                price: '22.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 33333333,
+                title: 'Ciabatta',
+                url: 'ciabatta',
+                price: '25.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 44444444,
+                title: 'Croissant',
+                url: 'croissant',
+                price: '15.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 555555555,
+                title: 'Bun',
+                url: 'buns',
+                price: '8.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 66666666,
+                title: 'Puff',
+                url: 'puff',
+                price: '12.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: false,
+                sale: '10%'
+            },
+            {
+                id: 77777777,
+                title: 'Donut',
+                url: 'donuts',
+                price: '10.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: true,
+                sale: '10%'
+            },
+            {
+                id: 11111111,
+                title: 'Apple strudel',
+                url: 'strudel',
+                price: '100.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: false,
+                sale: '10%'
+            }
+        ]
     },
     {
         title: 'Grocery',
@@ -222,7 +487,7 @@ let catalogMenu = [
     {
         title: 'Dairy',
         url: 'dairy',
-        sale: true
+        sale: false
     },
     {
         title: 'Drinks',
@@ -241,12 +506,18 @@ let cartRender = new CartRender(cart, cartHtml, {
     onDeleteProduct: (productId) => {
         console.log("DELETE PRODUCT ID " + productId);
 
-        let buyButton = store_category.querySelector('#card_'+ productId)
-            .querySelector('.add-to-cart');
-        buyButton.removeAttribute('disabled');
-        buyButton.classList.remove('disabled');
+        let productCard = store_category.querySelector('#card_' + productId);
+        if (productCard !== null) {
+            let buyButton = productCard.querySelector('.add-to-cart');
+            buyButton.removeAttribute('disabled');
+            buyButton.classList.remove('disabled');
+        }
+
     }
 });
+
+
+
 cartRender.render();
 
 let breadCrumbs = document.querySelector('.breadcrumbs');
@@ -256,43 +527,38 @@ let catalogMenuRender = new CatalogMenuRender(catalogMenu, store_catalog);
 catalogMenuRender.render();
 
 
-catalogMenu.forEach((category) => {
 
-    let productController = new ProductController(category.products, cart);
-
-    let buyButtonClickCallback = (product) => {
-        productController.buy(product.id);
-        cartRender.render();
-    };
-
-    let categoryHtml = document.querySelector('#' + category.title.toLowerCase());
-
-    categoryHtml.addEventListener('click', ()=>{
-        store_catalog.classList.add('hidden');
-        store_category.classList.add('visible');
-        store_category.innerHTML = '';
-        let productsRender = new ProductsRender(category.products, store_category, buyButtonClickCallback);
-        productsRender.render();
-        cartRender.render();
-
-        createBreadCrumb(category.title);
-
-    });
-});
 
 
 function createBreadCrumb(title) {
     let breadCrumbHome = document.querySelector('.breadcrumb-home');
     breadCrumbHome.classList.add('visible');
+    breadCrumbHome.setAttribute('id', 'home');
+
 
     let breadCrumb = document.createElement('li');
     breadCrumb.innerText = title;
+    breadCrumb.setAttribute('id', title);
     breadCrumbs.appendChild(breadCrumb);
+
+    let breadCrumbBeforeLast = breadCrumbs.querySelector('li:nth-last-child(2)');
+    console.log(breadCrumbBeforeLast);
+    let breadCrumbLast = breadCrumbs.querySelector('li:nth-last-child(1)');
+
+    breadCrumbBeforeLast.addEventListener('click', () => {
+        store_catalog.classList.remove('hidden');
+        store_category.classList.remove('visible');
+        breadCrumbLast.remove();
+    });
 
     breadCrumbHome.addEventListener('click', ()=> {
         breadCrumbHome.classList.remove('visible');
         store_catalog.classList.remove('hidden');
         store_category.classList.remove('visible');
+
+        let catalogMenuRender3 = new CatalogMenuRender(catalogMenu, store_catalog);
+        catalogMenuRender3.render();
+
 
         breadCrumb.remove();
     })

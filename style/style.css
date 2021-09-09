@@ -30,8 +30,6 @@
 body{
     font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.4em;
-    /*display: flex;*/
-    /*flex-direction: row;*/
     justify-content: space-between;
     margin: 0;
 }
@@ -86,7 +84,7 @@ main{
 }
 #store_catalog{
     position: absolute;
-    top: 7vh;
+    top: 105px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -135,10 +133,58 @@ main{
     border-right: 10px solid transparent;
 }
 
+/*Styles for ribbon of sale od products*/
+.ribbon1 {
+    position: absolute;
+    top: -6.1px;
+    right: 10px;
+}
+.ribbon1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 10px solid #f8463f66;
+    left: -17px;
+}
+.ribbon1 span {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: rgba(248, 70, 63, 0.4);
+    font-size: 14px;
+    line-height: 1;
+    padding: 12px 8px 10px;
+    border-top-right-radius: 8px;
+    width: 45px;
+    font-family: "Kerola Bold";
+}
+.ribbon1 span:before, .ribbon1 span:after {
+    position: absolute;
+    content: "";
+}
+.ribbon1 span:before {
+    height: 6px;
+    width: 6px;
+    left: -6px;
+    top: 0;
+    background: #f8463f47;
+}
+.ribbon1 span:after {
+    height: 6px;
+    width: 8px;
+    left: -8px;
+    top: 0;
+    border-radius: 8px 8px 0 0;
+    background: #c0203191;
+}
+
 
 /*Styles for cards of product*/
 .card_wrap {
-    /*position: relative;*/
+    position: relative;
     width: 22%;
     height: 400px;
     box-shadow: 0 0 10px 0 rgba(41,41,41,.1);

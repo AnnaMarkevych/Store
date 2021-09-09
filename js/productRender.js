@@ -1,8 +1,9 @@
 class ProductsRender {
-    constructor(products, rootElement, buyButtonClickCallback) {
+    constructor(products, rootElement, buyButtonClickCallback, sale) {
         this.products = products;
         this.rootElement = rootElement;
         this.buyButtonClickCallback = buyButtonClickCallback;
+        this.sale = sale;
     }
 
     render() {
@@ -33,14 +34,6 @@ class ProductsRender {
 
             let cardAvailability = document.createElement('div');
             cardAvailability.classList.add('card_availability');
-            // if (card.availability === true){
-            //     cardAvailability.innerText = 'Available';
-            //     cardAvailability.classList.add('available');
-            // } else {
-            //     cardAvailability.innerText = 'Not available';
-            //     cardAvailability.classList.add('notAvailable');
-            // }
-            // cardAvailability.innerText = card.description;
             cardWrap.appendChild(cardAvailability);
 
             let cardPrice = document.createElement('div');
@@ -57,12 +50,8 @@ class ProductsRender {
             cardPrice.appendChild(cardUserPanel);
 
             let cardBuy = document.createElement('button');
-            // let cardBuyIcon = document.createElement('img');
-            // cardBuyIcon.setAttribute('src', 'assets/images/icon_cart.png');
-            // cardBuyIcon.classList.add('icon_add-to-cart');
             cardBuy.classList.add('add-to-cart');
             cardUserPanel.appendChild(cardBuy);
-            // cardBuy.appendChild(cardBuyIcon);
             cardBuy.setAttribute('value', 'Add to Cart');
             cardBuy.setAttribute('data-value', card.price);
             cardBuy.setAttribute('data-name', card.title);
@@ -71,6 +60,7 @@ class ProductsRender {
             if (card.availability === true){
                 cardAvailability.innerText = 'Available';
                 cardAvailability.classList.add('available');
+
             } else {
                 cardAvailability.innerText = 'Not available';
                 cardAvailability.classList.add('notAvailable');
@@ -78,27 +68,38 @@ class ProductsRender {
                 cardBuy.classList.add('not-available');
             }
 
-
             cardBuy.addEventListener('click', () => {
                 btnCart.classList.remove('shake');
                 this.buyButtonClickCallback(card);
                 cardBuy.setAttribute('disabled', 'disabled');
                 btnCart.classList.add('shake');
-                // setInterval(btnCart.classList.remove('shake'), 5000);
                 console.log('Cart Shake!');
-                // cardBuy.setAttribute('value', 'Added to Cart');
                 cardBuy.classList.add('disabled');
             });
 
             cardDescription.addEventListener('mouseover', () => {
                 cardDescription.classList.add('full');
-                // cardWrap.classList.add('open');
             });
             cardDescription.addEventListener('mouseout', () => {
                 cardDescription.classList.remove('full');
             });
 
+            //Render ribbon with sale
+            if (this.sale === true && card.availability === true){
+                console.log('sale = true');
+                let ribbonProduct = document.createElement('div');
+                    ribbonProduct.classList.add('ribbon1');
+                    cardWrap.appendChild(ribbonProduct);
+                    let ribbonProductSpan = document.createElement('span');
+                    ribbonProductSpan.innerText = card.sale;
+                    ribbonProduct.appendChild(ribbonProductSpan);
+            } else{
+                console.log('sale = false');
+            }
+
         });
+
     }
+
 
 }

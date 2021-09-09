@@ -130,9 +130,13 @@ header nav ul li a {
     align-items: center;
 }
 
-.breadcrumbs li.breadcrumb-home:hover{
+.breadcrumbs li:hover{
     background: #99db76;
     cursor: pointer;
+}
+
+.breadcrumbs li:nth-last-child(1){
+    pointer-events: none;
 }
 .breadcrumbs li::before{
     content: "";
@@ -145,7 +149,7 @@ header nav ul li a {
     left: -1em;
 }
 
-.breadcrumbs li.breadcrumb-home:hover::before{
+.breadcrumbs li:hover::before{
     border-color: #99db76 #99db76 #99db76 transparent;
 }
 
@@ -160,7 +164,7 @@ header nav ul li a {
     right: -1em;
 }
 
-.breadcrumbs li.breadcrumb-home:hover::after{
+.breadcrumbs li:hover::after{
     border-left-color: #99db76;
 }
 .breadcrumb-home > span{
