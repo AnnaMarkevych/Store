@@ -51,7 +51,7 @@ header{
 }
 .catalog, .contacts {
     position: relative;
-    font-family: Kerola;
+    font-family: "Kerola Bold";
 }
 .navigation-items > li:hover {
     font-family: "Kerola Bold";
@@ -94,7 +94,7 @@ header nav ul li a {
     border-radius: 10px;
     border: 1px solid cornflowerblue;
     padding: 2px;
-    background: #99db76;
+    background: #73da3d;
     position: absolute;
     top: 50%;
     left: 50%;

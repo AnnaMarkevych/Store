@@ -5,7 +5,7 @@ class Cart {
 
     addProduct(product) {
         if(this.positions.has(product.id)) {
-            this.positions.get( product.id).count++;
+            this.positions.get(product.id).count++;
         } else {
             this.positions.set(product.id, {
                 "product": product,
@@ -22,6 +22,10 @@ class Cart {
 
     removeProduct(productId){
         this.positions.delete(productId);
+    }
+
+    containsInCart(productId){
+        return this.positions.has(productId);
     }
 
 

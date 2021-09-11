@@ -83,7 +83,7 @@ let catalogMenu = [
                 id: 777,
                 title: 'Cherry',
                 url: 'cherry',
-                price: '56',
+                price: '56.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -95,7 +95,7 @@ let catalogMenu = [
                 id: 888,
                 title: 'Lime',
                 url: 'lime',
-                price: '48',
+                price: '48.60',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -107,7 +107,7 @@ let catalogMenu = [
                 id: 999,
                 title: 'Lemon',
                 url: 'lemon',
-                price: '32.5',
+                price: '32.50',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -314,74 +314,279 @@ let catalogMenu = [
     {
         title: 'Sweets',
         url: 'sweets',
-        sale: false,
+        sale: true,
         subProducts: [
             {
-                title: 'Sweets1',
-                url: 'bakery',
+                title: 'SweetsCaramel',
+                url: 'sweets_caramel',
                 sale: true,
                 products: [
                     {
                         id: 11,
-                        title: 'Oran',
-                        url: 'card_1',
-                        price: '86.00',
+                        title: 'Caramel5',
+                        url: 'caramel5',
+                        price: '15.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                        'ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor \' +\n' +
-                        '        \'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \' +\n' +
-                        '        \'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        'incididunt ut labore et dolore magna aliqua.',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
                     },
                     {
                         id: 22,
-                        title: 'Ap',
-                        url: 'card_2',
-                        price: '65.00',
+                        title: 'Caramel6',
+                        url: 'caramel6',
+                        price: '15.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                        'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        'incididunt ut labore et dolore magna aliqua. ',
                         brand: 'Fit Product',
                         availability: false,
                         sale: '10%'
                     },
-                    ]
-                },
-            {
-                title: 'Sweets2',
-                url: 'bakery',
-                sale: false,
-                products: [
                     {
-                        id: 121,
-                        title: 'Oan',
-                        url: 'card_1',
-                        price: '86.00',
+                        id: 22,
+                        title: 'Caramel7',
+                        url: 'caramel7',
+                        price: '15.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                        'ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor \' +\n' +
-                        '        \'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \' +\n' +
-                        '        \'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        'incididunt ut labore et dolore magna aliqua. ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
                     },
                     {
-                        id: 212,
-                        title: 'Ap6',
-                        url: 'card_2',
-                        price: '65.00',
+                        id: 22,
+                        title: 'Caramel8',
+                        url: 'caramel8',
+                        price: '15.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                        'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        'incididunt ut labore et dolore magna aliqua. ',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 22,
+                        title: 'Caramel9',
+                        url: 'caramel9',
+                        price: '15.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua. ',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 22,
+                        title: 'Caramel10',
+                        url: 'caramel10',
+                        price: '15.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua. ',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 22,
+                        title: 'Caramel11',
+                        url: 'caramel11',
+                        price: '15.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua. ',
                         brand: 'Fit Product',
                         availability: false,
                         sale: '10%'
                     },
+                    {
+                        id: 22,
+                        title: 'Caramel12',
+                        url: 'caramel12',
+                        price: '15.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua. ',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+
+                    ]
+            },
+            {
+                title: 'Chokolate',
+                url: 'sweets_chokolate',
+                sale: true,
+                products: [
+                    {
+                        id: 1211,
+                        title: 'Dark',
+                        url: 'chokolate1',
+                        price: '328.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1222,
+                        title: 'Milk',
+                        url: 'chokolate2',
+                        price: '320.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1233,
+                        title: 'Mix',
+                        url: 'chokolate4',
+                        price: '350.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1244,
+                        title: 'Dried fruits',
+                        url: 'chokolate5',
+                        price: '500.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1255,
+                        title: 'White',
+                        url: 'chokolate6',
+                        price: '150.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1266,
+                        title: 'Nuts',
+                        url: 'chokolate7',
+                        price: '250.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
                 ]
-            }
+            },
+            {
+                title: 'ChokolateCandies',
+                url: 'sweets_chokolate-candies',
+                sale: true,
+                products: [
+                    {
+                        id: 1311,
+                        title: 'Candies1',
+                        url: 'choko-candies1',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1322,
+                        title: 'Candies2',
+                        url: 'choko-candies2',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1333,
+                        title: 'Candies3',
+                        url: 'choko-candies3',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1344,
+                        title: 'Candies4',
+                        url: 'choko-candies4',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1355,
+                        title: 'Candies5',
+                        url: 'choko-candies5',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1366,
+                        title: 'Candies6',
+                        url: 'choko-candies6',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1377,
+                        title: 'Candies7',
+                        url: 'choko-candies7',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1388,
+                        title: 'Candies8',
+                        url: 'choko-candies8',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1399,
+                        title: 'Candies9',
+                        url: 'choko-candies9',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1310,
+                        title: 'Candies10',
+                        url: 'choko-candies10',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+
+                ]
+            },
         ]
     },
     {
@@ -467,7 +672,7 @@ let catalogMenu = [
                 sale: '10%'
             },
             {
-                id: 11111111,
+                id: 88888888,
                 title: 'Apple strudel',
                 url: 'strudel',
                 price: '100.00',
@@ -475,6 +680,17 @@ let catalogMenu = [
                 'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Fit Product',
                 availability: false,
+                sale: '10%'
+            },
+            {
+                id: 99999999,
+                title: 'Cookies',
+                url: 'cookies',
+                price: '26.00',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                'incididunt ut labore et dolore magna aliqua.',
+                brand: 'Fit Product',
+                availability: true,
                 sale: '10%'
             }
         ]
@@ -487,7 +703,161 @@ let catalogMenu = [
     {
         title: 'Dairy',
         url: 'dairy',
-        sale: false
+        sale: true,
+        subProducts: [
+            {
+                title: 'Cheeses',
+                url: 'cheeses',
+                sale: true,
+                products: [
+                    {
+                        id: 1411,
+                        title: 'Cheese1',
+                        url: 'cheese1',
+                        price: '290.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1422,
+                        title: 'Cheese2',
+                        url: 'cheese2',
+                        price: '60.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1433,
+                        title: 'Cheese3',
+                        url: 'cheese3',
+                        price: '290.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1444,
+                        title: 'Mozzarella',
+                        url: 'cheese4',
+                        price: '200.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1455,
+                        title: 'Brinza',
+                        url: 'cheese5',
+                        price: '250.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: false,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1466,
+                        title: 'Feta',
+                        url: 'cheese6',
+                        price: '300.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1477,
+                        title: 'Parmesan',
+                        url: 'cheese7',
+                        price: '690.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: false,
+                        sale: '10%'
+                    },
+
+                ]
+            },
+            {
+                title: 'Eggs',
+                url: 'eggs',
+                sale: true,
+                products: [
+                    {
+                        id: 1511,
+                        title: 'Chicken eggs',
+                        url: 'eggs1',
+                        price: '29.00',
+                        description: 'Chicken eggs, 6pcs',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1522,
+                        title: 'Chicken eggs',
+                        url: 'eggs2',
+                        price: '2.00',
+                        description: 'Chicken eggs, 1pc',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1533,
+                        title: 'Chicken eggs',
+                        url: 'eggs3',
+                        price: '38.00',
+                        description: 'Chicken eggs, 10pcs',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1544,
+                        title: 'Quail eggs',
+                        url: 'eggs4',
+                        price: '50.00',
+                        description: 'Chicken eggs, 15pcs',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+
+                ]
+            },
+            {
+                title: 'Milk',
+                url: 'milk',
+                sale: true,
+                products: [
+                    {
+                        id: 1611,
+                        title: '',
+                        url: '',
+                        price: '29.00',
+                        description: '',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    }
+
+                ]
+            }
+
+        ]
     },
     {
         title: 'Drinks',

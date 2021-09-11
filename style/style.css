@@ -98,6 +98,11 @@ main{
 }
 
 /*Ribbon for SALE*/
+/*#chokolate .ribbon,*/
+#sweetscaramel .ribbon, #chokolatecandies .ribbon, #milk .ribbon {
+    top: -230px;
+}
+
 .ribbon {
     display: block;
     width: 220px;
@@ -154,7 +159,7 @@ main{
     display: block;
     text-align: center;
     background: rgba(248, 70, 63, 0.4);
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1;
     padding: 12px 8px 10px;
     border-top-right-radius: 8px;
@@ -289,7 +294,8 @@ main{
     border: 1px solid #00000030;
     cursor: pointer;
     transition: border 1s, background-color .5s;
-    background: #99db7699;
+    /*background: #99db7699;*/
+    background: #73da3d;
     color: black;
 }
 .add-to-cart:hover{
@@ -309,11 +315,14 @@ main{
     content: 'No available';
 }
 .not-available.add-to-cart{
-    background: #f7a6c98c;
+    /*background: #f7a6c98c;*/
+    /*background: #99db7699;*/
+    background: #f8f5f68c;
 }
 .disabled.add-to-cart{
     border: 1px solid #6a7481b8;
-    background: #f7a6c9;
+    /*background: #f7a6c9;*/
+    background: #99db7699;
 }
 
 

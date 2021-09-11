@@ -57,6 +57,11 @@ class ProductsRender {
             cardBuy.setAttribute('data-name', card.title);
             cardBuy.setAttribute('data-url', 'assets/images/' + card.url + '.jpg');
 
+            if(cart.containsInCart(card.id)){
+                cardBuy.setAttribute('disabled', 'disabled');
+                cardBuy.classList.add('disabled');
+            }
+
             if (card.availability === true){
                 cardAvailability.innerText = 'Available';
                 cardAvailability.classList.add('available');

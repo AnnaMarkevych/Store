@@ -79,7 +79,10 @@ class CatalogMenuRender {
 
                             let productsRender1 = new ProductsRender(subCategory.products, store_category, buyButtonClickCallback, category.sale);
                             productsRender1.render();
+
+
                         });
+
                     })
                 }
                 cartRender.render();
