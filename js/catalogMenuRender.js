@@ -49,12 +49,15 @@ class CatalogMenuRender {
                 store_catalog.classList.add('hidden');
                 store_category.classList.add('visible');
                 store_category.innerHTML = '';
+                filter.classList.add('visible');
 
                 if (category.subProducts === undefined ){
                     let productsRender = new ProductsRender(category.products, store_category, buyButtonClickCallback, category.sale);
                     productsRender.render();
+                    paginator(category.products.length);
 
                 } else {
+                    filter.classList.remove('visible');
                     store_catalog.innerHTML = '';
                     store_catalog.classList.remove('hidden');
                     let catalogMenuRender1 = new CatalogMenuRender(category.subProducts, store_catalog);
@@ -72,7 +75,7 @@ class CatalogMenuRender {
                         console.log(categoryHtml);
 
                         categoryHtml.addEventListener('click', ()=> {
-                            console.log('11');
+                            // console.log('11');
                             store_catalog.classList.add('hidden');
                             store_category.classList.add('visible');
                             store_category.innerHTML = '';
@@ -80,13 +83,15 @@ class CatalogMenuRender {
                             let productsRender1 = new ProductsRender(subCategory.products, store_category, buyButtonClickCallback, category.sale);
                             productsRender1.render();
 
+                            paginator(subCategory.products.length)
 
                         });
 
                     })
                 }
                 cartRender.render();
-                createBreadCrumb(category.title);
+                breadCrumbRender(category.title);
+
 
             });
         });

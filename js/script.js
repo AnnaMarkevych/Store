@@ -344,7 +344,7 @@ let catalogMenu = [
                         sale: '10%'
                     },
                     {
-                        id: 22,
+                        id: 33,
                         title: 'Caramel7',
                         url: 'caramel7',
                         price: '15.00',
@@ -355,7 +355,7 @@ let catalogMenu = [
                         sale: '10%'
                     },
                     {
-                        id: 22,
+                        id: 44,
                         title: 'Caramel8',
                         url: 'caramel8',
                         price: '15.00',
@@ -366,7 +366,7 @@ let catalogMenu = [
                         sale: '10%'
                     },
                     {
-                        id: 22,
+                        id: 55,
                         title: 'Caramel9',
                         url: 'caramel9',
                         price: '15.00',
@@ -377,7 +377,7 @@ let catalogMenu = [
                         sale: '10%'
                     },
                     {
-                        id: 22,
+                        id: 66,
                         title: 'Caramel10',
                         url: 'caramel10',
                         price: '15.00',
@@ -388,7 +388,7 @@ let catalogMenu = [
                         sale: '10%'
                     },
                     {
-                        id: 22,
+                        id: 77,
                         title: 'Caramel11',
                         url: 'caramel11',
                         price: '15.00',
@@ -399,12 +399,11 @@ let catalogMenu = [
                         sale: '10%'
                     },
                     {
-                        id: 22,
+                        id: 88,
                         title: 'Caramel12',
                         url: 'caramel12',
                         price: '15.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. ',
+                        description: 'Lorem ipsum dolor . ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -845,10 +844,30 @@ let catalogMenu = [
                 products: [
                     {
                         id: 1611,
-                        title: '',
-                        url: '',
+                        title: 'Milk 1%',
+                        url: 'milk1',
                         price: '29.00',
-                        description: '',
+                        description: '1l',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1622,
+                        title: 'Milk 2,6%',
+                        url: 'milk2',
+                        price: '32.00',
+                        description: '1l',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1633,
+                        title: 'Milk 3,2%',
+                        url: 'milk3',
+                        price: '36.00',
+                        description: '1l',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -870,6 +889,7 @@ let catalogMenu = [
 let cart = new Cart();
 let store_category = document.querySelector('#store');
 let store_catalog = document.querySelector('#store_catalog');
+let filter = document.querySelector('#filter');
 
 let cartHtml = document.querySelector('#cart');
 let cartRender = new CartRender(cart, cartHtml, {
@@ -895,44 +915,6 @@ let breadCrumbs = document.querySelector('.breadcrumbs');
 
 let catalogMenuRender = new CatalogMenuRender(catalogMenu, store_catalog);
 catalogMenuRender.render();
-
-
-
-
-
-function createBreadCrumb(title) {
-    let breadCrumbHome = document.querySelector('.breadcrumb-home');
-    breadCrumbHome.classList.add('visible');
-    breadCrumbHome.setAttribute('id', 'home');
-
-
-    let breadCrumb = document.createElement('li');
-    breadCrumb.innerText = title;
-    breadCrumb.setAttribute('id', title);
-    breadCrumbs.appendChild(breadCrumb);
-
-    let breadCrumbBeforeLast = breadCrumbs.querySelector('li:nth-last-child(2)');
-    console.log(breadCrumbBeforeLast);
-    let breadCrumbLast = breadCrumbs.querySelector('li:nth-last-child(1)');
-
-    breadCrumbBeforeLast.addEventListener('click', () => {
-        store_catalog.classList.remove('hidden');
-        store_category.classList.remove('visible');
-        breadCrumbLast.remove();
-    });
-
-    breadCrumbHome.addEventListener('click', ()=> {
-        breadCrumbHome.classList.remove('visible');
-        store_catalog.classList.remove('hidden');
-        store_category.classList.remove('visible');
-
-        let catalogMenuRender3 = new CatalogMenuRender(catalogMenu, store_catalog);
-        catalogMenuRender3.render();
-
-
-        breadCrumb.remove();
-    })
-}
 
 let overlay  = document.querySelector('.overlay');
 let btnCart = document.querySelector('#btn_cart');

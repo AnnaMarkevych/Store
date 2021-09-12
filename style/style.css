@@ -66,16 +66,19 @@ button{
 
 main{
     height: calc(100vh - 7vh - 36px);
+    display: inline-block;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 #store{
     position: absolute;
     top: 105px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-29%);
     flex-direction: row;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 850px;
     z-index: 1;
     display: none;
 }
@@ -98,9 +101,14 @@ main{
 }
 
 /*Ribbon for SALE*/
-/*#chokolate .ribbon,*/
 #sweetscaramel .ribbon, #chokolatecandies .ribbon, #milk .ribbon {
     top: -230px;
+}
+#eggs .ribbon{
+    top: -202px;
+}
+#cheeses .ribbon{
+    top: -209px;
 }
 
 .ribbon {
@@ -190,12 +198,13 @@ main{
 /*Styles for cards of product*/
 .card_wrap {
     position: relative;
-    width: 22%;
-    height: 400px;
+    width: 29%;
+    height: 370px;
     box-shadow: 0 0 10px 0 rgba(41,41,41,.1);
     margin: 1rem;
     padding: 1rem;
-    display: flex;
+    /*display: flex;*/
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     transition: box-shadow .5s;
@@ -225,6 +234,13 @@ main{
     padding: 0 1rem;
     margin: 0 auto;
 }
+#card_1611 > img, #card_1622 > img {
+    width: 55%;
+}
+#card_1633 > img{
+    width: 45%;
+}
+
 
 .card_description{
     font-family: "Kerola Light";
@@ -237,9 +253,9 @@ main{
     position: relative;
 }
 
-.card_description.full{
-    height: 100%;
-}
+/*.card_description.full{*/
+    /*height: 100%;*/
+/*}*/
 
 .card_description:after {
     content: "";

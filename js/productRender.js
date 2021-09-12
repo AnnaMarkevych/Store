@@ -7,9 +7,13 @@ class ProductsRender {
     }
 
     render() {
+        let i = 1;
+
         this.products.forEach((card)=>{
             let cardWrap = document.createElement('div');
             cardWrap.classList.add('card_wrap');
+            cardWrap.classList.add('num');
+            cardWrap.setAttribute('data-num', i++);
             this.rootElement.appendChild(cardWrap);
             cardWrap.setAttribute('id', 'card_' + card.id);
 
@@ -91,7 +95,7 @@ class ProductsRender {
 
             //Render ribbon with sale
             if (this.sale === true && card.availability === true){
-                console.log('sale = true');
+                // console.log('sale = true');
                 let ribbonProduct = document.createElement('div');
                     ribbonProduct.classList.add('ribbon1');
                     cardWrap.appendChild(ribbonProduct);
@@ -99,7 +103,7 @@ class ProductsRender {
                     ribbonProductSpan.innerText = card.sale;
                     ribbonProduct.appendChild(ribbonProductSpan);
             } else{
-                console.log('sale = false');
+                // console.log('sale = false');
             }
 
         });
