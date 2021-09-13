@@ -15,6 +15,7 @@ function breadCrumbRender(title) {
 
     breadCrumbBeforeLast.addEventListener('click', () => {
         store_catalog.classList.remove('hidden');
+        filter.classList.remove('visible');
         store_category.classList.remove('visible');
         breadCrumbLast.remove();
     });

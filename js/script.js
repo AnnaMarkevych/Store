@@ -339,7 +339,7 @@ let catalogMenu = [
                         price: '15.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua. ',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: false,
                         sale: '10%'
                     },
@@ -361,7 +361,7 @@ let catalogMenu = [
                         price: '15.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua. ',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -383,7 +383,7 @@ let catalogMenu = [
                         price: '15.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua. ',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -404,7 +404,7 @@ let catalogMenu = [
                         url: 'caramel12',
                         price: '15.00',
                         description: 'Lorem ipsum dolor . ',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -422,7 +422,7 @@ let catalogMenu = [
                         url: 'chokolate1',
                         price: '328.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -442,7 +442,7 @@ let catalogMenu = [
                         url: 'chokolate4',
                         price: '350.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -472,7 +472,7 @@ let catalogMenu = [
                         url: 'chokolate7',
                         price: '250.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -489,7 +489,7 @@ let catalogMenu = [
                         url: 'choko-candies1',
                         price: '100.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -549,7 +549,7 @@ let catalogMenu = [
                         url: 'choko-candies7',
                         price: '100.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -569,7 +569,7 @@ let catalogMenu = [
                         url: 'choko-candies9',
                         price: '100.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -579,7 +579,7 @@ let catalogMenu = [
                         url: 'choko-candies10',
                         price: '100.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -600,7 +600,7 @@ let catalogMenu = [
                 price: '20.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
-                brand: 'Fit Product',
+                brand: 'Organic',
                 availability: true,
                 sale: '10%'
             },
@@ -611,7 +611,7 @@ let catalogMenu = [
                 price: '22.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
-                brand: 'Fit Product',
+                brand: 'Organic',
                 availability: true,
                 sale: '10%'
             },
@@ -644,7 +644,7 @@ let catalogMenu = [
                 price: '8.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
-                brand: 'Fit Product',
+                brand: 'New Line',
                 availability: true,
                 sale: '10%'
             },
@@ -666,7 +666,7 @@ let catalogMenu = [
                 price: '10.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
-                brand: 'Fit Product',
+                brand: 'New Line',
                 availability: true,
                 sale: '10%'
             },
@@ -688,7 +688,7 @@ let catalogMenu = [
                 price: '26.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                 'incididunt ut labore et dolore magna aliqua.',
-                brand: 'Fit Product',
+                brand: 'Organic',
                 availability: true,
                 sale: '10%'
             }
@@ -716,7 +716,7 @@ let catalogMenu = [
                         price: '290.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -738,7 +738,7 @@ let catalogMenu = [
                         price: '290.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -760,7 +760,7 @@ let catalogMenu = [
                         price: '250.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: false,
                         sale: '10%'
                     },
@@ -782,7 +782,7 @@ let catalogMenu = [
                         price: '690.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: false,
                         sale: '10%'
                     },
@@ -800,7 +800,7 @@ let catalogMenu = [
                         url: 'eggs1',
                         price: '29.00',
                         description: 'Chicken eggs, 6pcs',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -820,7 +820,7 @@ let catalogMenu = [
                         url: 'eggs3',
                         price: '38.00',
                         description: 'Chicken eggs, 10pcs',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -830,7 +830,7 @@ let catalogMenu = [
                         url: 'eggs4',
                         price: '50.00',
                         description: 'Chicken eggs, 15pcs',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -848,7 +848,7 @@ let catalogMenu = [
                         url: 'milk1',
                         price: '29.00',
                         description: '1l',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -868,7 +868,7 @@ let catalogMenu = [
                         url: 'milk3',
                         price: '36.00',
                         description: '1l',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     }
@@ -906,12 +906,9 @@ let cartRender = new CartRender(cart, cartHtml, {
     }
 });
 
-
-
 cartRender.render();
 
 let breadCrumbs = document.querySelector('.breadcrumbs');
-
 
 let catalogMenuRender = new CatalogMenuRender(catalogMenu, store_catalog);
 catalogMenuRender.render();
@@ -919,8 +916,9 @@ catalogMenuRender.render();
 let overlay  = document.querySelector('.overlay');
 let btnCart = document.querySelector('#btn_cart');
 let catalog = document.querySelector('.catalog-menu');
+let contacts = document.querySelector('.container-contacts');
 let btnCatalog = document.querySelector('#btn_catalog');
-
+let btnContacts = document.querySelector('#btn_contacts');
 
 btnCart.addEventListener('click', ()=>{
     cartHtml.classList.add('active');
@@ -930,17 +928,24 @@ btnCart.addEventListener('click', ()=>{
 btnCatalog.addEventListener('click', () => {
     catalog.classList.add('active');
     overlay.classList.add('active');
+
+    let catalogRender = new CatalogRender(catalogMenu, catalog);
+    catalogRender.render();
+});
+btnContacts.addEventListener('click', () => {
+    contacts.classList.add('active');
+    overlay.classList.add('active');
 });
 
 overlay.addEventListener('click', ()=>{
     cartHtml.classList.remove('active');
     overlay.classList.remove('active');
     catalog.classList.remove('active');
+    contacts.classList.remove('active');
 });
 
-//
-// let catalogRender = new  CatalogRender(catalog, products, catalog);
-// catalogRender.render();
+
+
 
 
 

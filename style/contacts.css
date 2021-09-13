@@ -1,0 +1,52 @@
+.container-contacts {
+    width: 621px;
+    height: 450px;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: white;
+    box-shadow: 0 0 10px 0 rgba(41,41,41,.1);
+    z-index: -10;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-contacts.active{
+    opacity: 1;
+    transition: opacity .3s;
+    z-index: 101;
+}
+.container-contacts .title{
+    font-size: 3rem;
+    font-family: Kerola Light;
+    color: #134661;
+    margin: 1rem 0;
+}
+.container-contacts h2{
+    font-family: Kerola;
+    font-size: 1rem;
+    padding: .2rem;
+    margin: 0.5rem 0;
+}
+.container-contacts h3{
+    font-family: "Kerola Light";
+    color: #134661;
+    margin: 0.5rem 0;
+}
+.networks{
+    display: flex;
+    flex-direction: row;
+}
+.networks a{
+    padding: .2rem;
+}
+.networks a img:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+}
+.networks a > img {
+    width: 35px;
+}

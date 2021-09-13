@@ -69,11 +69,16 @@ main{
     display: inline-block;
     width: 1200px;
     margin: 0 auto;
+    /*position: relative;*/
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /*z-index: 100;*/
 }
 
 #store{
     position: absolute;
-    top: 105px;
+    /*top: 105px;*/
     left: 50%;
     transform: translateX(-29%);
     flex-direction: row;
@@ -87,7 +92,7 @@ main{
 }
 #store_catalog{
     position: absolute;
-    top: 105px;
+    /*top: 105px;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
