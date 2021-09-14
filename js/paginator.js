@@ -27,7 +27,9 @@ function paginator(counts) {
     }
 
     let main_page = document.getElementById("page1");
-    main_page.classList.add("paginator_active");
+    if (main_page !== null){
+        main_page.classList.add("paginator_active");
+    }
 
 
     paginator.addEventListener('click',()=> {

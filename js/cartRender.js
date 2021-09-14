@@ -143,6 +143,20 @@ class CartRender {
         cartListItemCheck.classList.add('cart_list__item-check');
         cartListColumn1.appendChild(cartListItemCheck);
 
+        cartListItemCheck.addEventListener('click', () =>{
+            let isChecked = cartListItemCheck.getAttribute('checked');
+
+            if (isChecked === null){
+                cartListItemCheck.setAttribute('checked', true);
+                console.log('This cartListItemCheck is checked');
+            } else{
+                cartListItemCheck.removeAttribute('checked');
+                console.log('This cartListItemCheck is NOT checked');
+            }
+        });
+
+
+
         //Created Column2
         let cartListColumn2 = document.createElement('div');
         cartListColumn2.classList.add('cart_list__item-column');
@@ -281,7 +295,6 @@ class CartRender {
         for (let position of positions.values()) {
             sum = sum + position.product.price * position.count;
             cart_count +=position.count;
-            console.log(cart_count);
         }
         if (cart_count > 0){
             cartCount.classList.add('visible');

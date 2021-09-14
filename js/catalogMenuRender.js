@@ -44,6 +44,7 @@ class CatalogMenuRender {
             };
 
             let categoryHtml = document.querySelector('#' + category.title.toLowerCase());
+            // console.log(categoryHtml);
 
             categoryHtml.addEventListener('click', ()=>{
                 store_catalog.classList.add('hidden');
@@ -52,9 +53,10 @@ class CatalogMenuRender {
                 filter.classList.add('visible');
 
                 if (category.subProducts === undefined ){
-                    let productsRender = new ProductsRender(category.products, store_category, buyButtonClickCallback, category.sale);
+                    let filteredProducts = productFilter.filter(category.products);
+                    let productsRender = new ProductsRender(filteredProducts, store_category, buyButtonClickCallback, category.sale);
                     productsRender.render();
-                    paginator(category.products.length);
+                    paginator(filteredProducts.length);
 
                 } else {
                     filter.classList.remove('visible');
@@ -72,7 +74,7 @@ class CatalogMenuRender {
                         };
 
                         let categoryHtml = document.querySelector('#' + subCategory.title.toLowerCase());
-                        console.log(categoryHtml);
+                        // console.log(categoryHtml);
 
                         categoryHtml.addEventListener('click', ()=> {
                             // console.log('11');
@@ -80,10 +82,11 @@ class CatalogMenuRender {
                             store_category.classList.add('visible');
                             store_category.innerHTML = '';
 
-                            let productsRender1 = new ProductsRender(subCategory.products, store_category, buyButtonClickCallback, category.sale);
+                            let filteredProducts = productFilter.filter(subCategory.products);
+                            let productsRender1 = new ProductsRender(filteredProducts, store_category, buyButtonClickCallback, category.sale);
                             productsRender1.render();
 
-                            paginator(subCategory.products.length)
+                            paginator(filteredProducts.length);
 
                         });
 

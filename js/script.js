@@ -697,7 +697,249 @@ let catalogMenu = [
     {
         title: 'Grocery',
         url: 'grocery',
-        sale: false
+        sale: false,
+        subProducts:[
+            {
+                title: 'Groats',
+                url: 'groatsmain',
+                sale: false,
+                products: [
+                    {
+                        id: 1711,
+                        title: 'Groats1',
+                        url: 'groats1',
+                        price: '35.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1722,
+                        title: 'Groats2',
+                        url: 'groats2',
+                        price: '55.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Organic',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1733,
+                        title: 'Groats3',
+                        url: 'groats3',
+                        price: '35.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'New Line',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1744,
+                        title: 'Groats4',
+                        url: 'groats4',
+                        price: '45.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1755,
+                        title: 'Groats5',
+                        url: 'groats5',
+                        price: '30.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Organic',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1766,
+                        title: 'Groats6',
+                        url: 'groats6',
+                        price: '60.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'New Line',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1777,
+                        title: 'Groats7',
+                        url: 'groats7',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+
+
+                ]
+            },
+            {
+                title: 'Pasta',
+                url: 'pasta',
+                sale: false,
+                products: [
+                    {
+                        id: 1811,
+                        title: 'Pasta1',
+                        url: 'pasta1',
+                        price: '120.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1822,
+                        title: 'Pasta2',
+                        url: 'pasta2',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Organic',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1833,
+                        title: 'Pasta3',
+                        url: 'pasta3',
+                        price: '85.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1844,
+                        title: 'Pasta4',
+                        url: 'pasta4',
+                        price: '95.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'New Line',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1855,
+                        title: 'Pasta5',
+                        url: 'pasta5',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1866,
+                        title: 'Pasta6',
+                        url: 'pasta6',
+                        price: '80.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Organic',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1877,
+                        title: 'Pasta7',
+                        url: 'pasta7',
+                        price: '90.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Organic',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1888,
+                        title: 'Pasta8',
+                        url: 'pasta8',
+                        price: '80.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Organic',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1899,
+                        title: 'Pasta9',
+                        url: 'pasta9',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'New Line',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 18101,
+                        title: 'Pasta10',
+                        url: 'pasta101',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Organic',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 18111,
+                        title: 'Pasta11',
+                        url: 'pasta11',
+                        price: '90.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 18112,
+                        title: 'Pasta12',
+                        url: 'pasta12',
+                        price: '120.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 18113,
+                        title: 'Pasta13',
+                        url: 'pasta13',
+                        price: '110.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+
+
+
+                ]
+            }
+
+        ]
     },
     {
         title: 'Dairy',
@@ -881,7 +1123,275 @@ let catalogMenu = [
     {
         title: 'Drinks',
         url: 'drinks',
-        sale: false
+        sale: false,
+        subProducts:[
+            {
+                title: 'FreshJuice',
+                url: 'juices',
+                sale: false,
+                products: [
+                    {
+                        id: 1911,
+                        title: 'Fresh1',
+                        url: 'fresh1',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1922,
+                        title: 'Fresh2',
+                        url: 'fresh2',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Organic',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1933,
+                        title: 'Fresh3',
+                        url: 'fresh3',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'New Line',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1944,
+                        title: 'Fresh4',
+                        url: 'fresh4',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: false,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1955,
+                        title: 'Fresh5',
+                        url: 'fresh5',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Organic',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1966,
+                        title: 'Fresh6',
+                        url: 'fresh6',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'New Line',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1977,
+                        title: 'Fresh7',
+                        url: 'fresh7',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 1988,
+                        title: 'Fresh8',
+                        url: 'fresh8',
+                        price: '75.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                ]
+            },
+            {
+                title: 'Smuzi',
+                url: 'smuzi',
+                sale: false,
+                products: [
+                    {
+                        id: 19911,
+                        title: 'Smuzi1',
+                        url: 'smuzi1',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 19922,
+                        title: 'Smuzi2',
+                        url: 'smuzi2',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 19933,
+                        title: 'Smuzi3',
+                        url: 'smuzi3',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 19944,
+                        title: 'Smuzi4',
+                        url: 'smuzi4',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 19955,
+                        title: 'Smuzi5',
+                        url: 'smuzi5',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 19966,
+                        title: 'Smuzi6',
+                        url: 'smuzi6',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 19977,
+                        title: 'Smuzi7',
+                        url: 'smuzi7',
+                        price: '100.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+
+
+                ]
+            },
+            {
+                title: 'Alkogol',
+                url: 'alkogol',
+                sale: false,
+                products: [
+                    {
+                        id: 199911,
+                        title: 'Alko1',
+                        url: 'alko1',
+                        price: '200.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 199922,
+                        title: 'Alko2',
+                        url: 'alko2',
+                        price: '200.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 199933,
+                        title: 'Alko3',
+                        url: 'alko3',
+                        price: '200.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 199944,
+                        title: 'Alko4',
+                        url: 'alko4',
+                        price: '200.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 199955,
+                        title: 'Alko5',
+                        url: 'alko5',
+                        price: '200.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 199966,
+                        title: 'Alko6',
+                        url: 'alko6',
+                        price: '200.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+                    {
+                        id: 199977,
+                        title: 'Alko7',
+                        url: 'alko7',
+                        price: '200.00',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
+                        'incididunt ut labore et dolore magna aliqua.',
+                        brand: 'Fit Product',
+                        availability: true,
+                        sale: '10%'
+                    },
+
+                ]
+            }
+        ]
     }
 ];
 

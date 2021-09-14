@@ -106,16 +106,6 @@ main{
 }
 
 /*Ribbon for SALE*/
-#sweetscaramel .ribbon, #chokolatecandies .ribbon, #milk .ribbon {
-    top: -230px;
-}
-#eggs .ribbon{
-    top: -202px;
-}
-#cheeses .ribbon{
-    top: -209px;
-}
-
 .ribbon {
     display: block;
     width: 220px;
@@ -129,6 +119,36 @@ main{
     top: -215px;
     color: white;
     font-family: "Kerola Bold";
+}
+#sweetscaramel .ribbon, #chokolatecandies .ribbon, #milk .ribbon {
+    top: -230px;
+}
+#eggs .ribbon{
+    top: -202px;
+}
+#cheeses .ribbon{
+    top: -209px;
+}
+#fruits .ribbon{
+    top: -216px;
+}
+#sweets .ribbon{
+    top: -220px;
+}
+#bakery .ribbon{
+    top: -224px;
+}
+#dairy .ribbon, #drinks .ribbon{
+    top: -218px;
+}
+#pasta .ribbon{
+    top: -200px;
+}
+#freshjuice .ribbon{
+    top: -213px;
+}
+#alkogol .ribbon{
+    top: -202px;
 }
 .ribbon:before, .ribbon:after {
     content: "";
@@ -214,6 +234,7 @@ main{
     justify-content: space-between;
     transition: box-shadow .5s;
 }
+
 .card_wrap.open {
     height: auto;
 }
@@ -244,6 +265,18 @@ main{
 }
 #card_1633 > img{
     width: 45%;
+}
+#card_1911 > img, #card_1922 > img, #card_1933 > img, #card_1944 > img{
+    width: 38%;
+}
+#card_19911 > img{
+    width: 42%;
+}
+#card_19922 > img, #card_19933 > img{
+    width: 72%;
+}
+#card_199911 > img,#card_199922 > img,#card_199933 > img,#card_199944 > img,#card_199955 > img,#card_199966 > img,#card_199977 > img{
+    width: 30%;
 }
 
 
