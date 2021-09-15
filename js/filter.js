@@ -1,7 +1,8 @@
 let productFilter = {
-    brand: ['FIT PRODUCT1', 'ORGANIC1', 'NEW LINE'],
+    brand: ['FIT PRODUCT', 'ORGANIC', 'NEW LINE'],
     isAllowed: function(card) {
-        return this.brand.indexOf(card.brand.toUpperCase()) >= 0;
+        return this.brand.includes(card.brand.toUpperCase());
+
     },
     filter: function (products) {
         let result = [];

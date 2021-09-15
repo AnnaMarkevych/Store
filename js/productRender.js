@@ -7,9 +7,10 @@ class ProductsRender {
     }
 
     render() {
+        this.rootElement.innerHTML = '';
         let i = 1;
-
-        this.products.forEach((card)=>{
+        let filteredProducts = productFilter.filter(this.products);
+        filteredProducts.forEach((card)=>{
             let cardWrap = document.createElement('div');
             cardWrap.classList.add('card_wrap');
             cardWrap.classList.add('num');
@@ -108,6 +109,7 @@ class ProductsRender {
 
         });
 
+        paginator(filteredProducts.length);
     }
 
 

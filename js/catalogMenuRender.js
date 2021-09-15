@@ -49,21 +49,18 @@ class CatalogMenuRender {
             categoryHtml.addEventListener('click', ()=>{
                 store_catalog.classList.add('hidden');
                 store_category.classList.add('visible');
-                store_category.innerHTML = '';
                 filter.classList.add('visible');
 
                 if (category.subProducts === undefined ){
-                    let filteredProducts = productFilter.filter(category.products);
-                    let productsRender = new ProductsRender(filteredProducts, store_category, buyButtonClickCallback, category.sale);
+                    productsRender = new ProductsRender(category.products, store_category, buyButtonClickCallback, category.sale);
                     productsRender.render();
-                    paginator(filteredProducts.length);
-
                 } else {
                     filter.classList.remove('visible');
                     store_catalog.innerHTML = '';
                     store_catalog.classList.remove('hidden');
-                    let catalogMenuRender1 = new CatalogMenuRender(category.subProducts, store_catalog);
-                    catalogMenuRender1.render();
+                    store_category.classList.remove('visible');
+                    catalogMenuRender = new CatalogMenuRender(category.subProducts, store_catalog);
+                    catalogMenuRender.render();
 
                     category.subProducts.forEach((subCategory) => {
                         let productController = new ProductController(subCategory.products, cart);
@@ -80,22 +77,14 @@ class CatalogMenuRender {
                             // console.log('11');
                             store_catalog.classList.add('hidden');
                             store_category.classList.add('visible');
-                            store_category.innerHTML = '';
 
-                            let filteredProducts = productFilter.filter(subCategory.products);
-                            let productsRender1 = new ProductsRender(filteredProducts, store_category, buyButtonClickCallback, category.sale);
-                            productsRender1.render();
-
-                            paginator(filteredProducts.length);
-
+                            productsRender = new ProductsRender(subCategory.products, store_category, buyButtonClickCallback, category.sale);
+                            productsRender.render();
                         });
-
                     })
                 }
                 cartRender.render();
                 breadCrumbRender(category.title);
-
-
             });
         });
     }

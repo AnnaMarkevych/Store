@@ -6,7 +6,7 @@ function paginator(counts) {
 
 
     // let counts = category.products.length; // counts of products in category
-    console.log(counts);
+    // console.log(counts);
     let cnt = 6; // counts of products on 1 page
     let cnt_page = Math.ceil(counts / cnt); // counts of pages
 

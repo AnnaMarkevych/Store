@@ -26,8 +26,8 @@ function breadCrumbRender(title) {
         store_category.classList.remove('visible');
         filter.classList.remove('visible');
 
-        let catalogMenuRender3 = new CatalogMenuRender(catalogMenu, store_catalog);
-        catalogMenuRender3.render();
+        catalogMenuRender = new CatalogMenuRender(catalogMenu, store_catalog);
+        catalogMenuRender.render();
 
 
         breadCrumb.remove();

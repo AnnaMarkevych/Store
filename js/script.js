@@ -1397,6 +1397,7 @@ let catalogMenu = [
 
 
 let cart = new Cart();
+let productsRender;
 let store_category = document.querySelector('#store');
 let store_catalog = document.querySelector('#store_catalog');
 let filter = document.querySelector('#filter');
