@@ -18,6 +18,7 @@ function breadCrumbRender(title) {
         filter.classList.remove('visible');
         store_category.classList.remove('visible');
         breadCrumbLast.remove();
+
     });
 
     breadCrumbHome.addEventListener('click', ()=> {
@@ -29,7 +30,7 @@ function breadCrumbRender(title) {
         catalogMenuRender = new CatalogMenuRender(catalogMenu, store_catalog);
         catalogMenuRender.render();
 
-
         breadCrumb.remove();
-    })
+    });
+
 }

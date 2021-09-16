@@ -26,7 +26,7 @@ let accordion = (function (element) {
 
             let itemId = (e.target.querySelector('span:nth-child(1)').innerText).toLowerCase();
             let brandInputs = item.querySelectorAll('.accordion-item-content .filter-item input');
-            console.log(brandInputs);
+            // console.log(brandInputs);
 
             let brand = [];
             brandInputs.forEach((brandInput) => {
@@ -34,10 +34,13 @@ let accordion = (function (element) {
             });
 
             for (let i = 0; i <= brandInputs.length-1; i++){
+                // brandInputs[i].setAttribute('checked', true);
+
                 brandInputs[i].addEventListener('click', ()=>{
                     if (brandInputs[i].checked === true){
                         brand.push(brandInputs[i].name.toUpperCase());
                     } else{
+                        // brandInputs[i].checked = false;
                         const index = brand.indexOf(brandInputs[i].name.toUpperCase());
                         if (index >= 0) {
                             brand.splice(index, 1);

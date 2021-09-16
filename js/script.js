@@ -1232,7 +1232,7 @@ let catalogMenu = [
                         price: '100.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -1254,7 +1254,7 @@ let catalogMenu = [
                         price: '100.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -1276,7 +1276,7 @@ let catalogMenu = [
                         price: '100.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -1287,7 +1287,7 @@ let catalogMenu = [
                         price: '100.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -1318,7 +1318,7 @@ let catalogMenu = [
                         price: '200.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -1340,7 +1340,7 @@ let catalogMenu = [
                         price: '200.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'New Line',
                         availability: true,
                         sale: '10%'
                     },
@@ -1362,7 +1362,7 @@ let catalogMenu = [
                         price: '200.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },
@@ -1384,7 +1384,7 @@ let catalogMenu = [
                         price: '200.00',
                         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
                         'incididunt ut labore et dolore magna aliqua.',
-                        brand: 'Fit Product',
+                        brand: 'Organic',
                         availability: true,
                         sale: '10%'
                     },

@@ -358,12 +358,12 @@ main{
 }
 .add-to-cart:after{
     content: 'Add to cart';
-    font-family: Kerola;
+    font-family: "Kerola Bold";
     font-size: .7rem;
 }
 .disabled.add-to-cart:after{
     content: 'In cart';
-    font-family: "Kerola Bold";
+    font-family: Kerola;
 }
 .not-available.add-to-cart:after{
     content: 'No available';

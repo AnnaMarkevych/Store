@@ -1,8 +1,15 @@
 let productFilter = {
     brand: ['FIT PRODUCT', 'ORGANIC', 'NEW LINE'],
+    price: [0, 1000],
     isAllowed: function(card) {
-        return this.brand.includes(card.brand.toUpperCase());
-
+        // return this.brand.includes(card.brand.toUpperCase());
+        if (this.brand.includes(card.brand.toUpperCase())
+            && (this.price[0] <= card.price && card.price <= this.price[1])
+        )
+        {
+            console.log('is allowed!');
+            return true;
+        }
     },
     filter: function (products) {
         let result = [];
@@ -15,8 +22,3 @@ let productFilter = {
     }
 };
 
-createFilter('#filter');
-
-function createFilter(rootElement) {
-
-}

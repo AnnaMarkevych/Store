@@ -103,9 +103,13 @@
                     </div>
                     <div class="accordion-item-content">
                         <div class="range">
-                            <span>From</span><span>0</span><span>To</span><output name="priceProductOutput" id="priceProductOutput">80</output>
+                            <span>From</span>
+                            <span id="minPrice">0</span>
+                            <span>To</span>
+                            <output name="priceProductOutput" id="priceProductOutput">1000</output>
+                            <button class="rangeOk" id="rangeOk">OK</button>
                         </div>
-                        <input type="range" min="0" max="1000" step="1" value="80" name="priceProductInput" id="priceProductInput"
+                        <input type="range" min="0" max="1000" step="1" value="1000" name="priceProductInput" id="priceProductInput"
                                oninput="priceProductOutput.value = priceProductInput.value">
                         <p><span>0</span><span>1000</span></p>
                     </div>
@@ -126,7 +130,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </aside>
@@ -146,4 +149,5 @@
 <script type="text/javascript" src="js/paginator.js"></script>
 <script type="text/javascript" src="js/breadCrumbRender.js"></script>
 <script type="text/javascript" src="js/accordion.js"></script>
+<script type="text/javascript" src="js/rangeFilter.js"></script>
 </html>

@@ -112,9 +112,23 @@ input[type=range]+p{
 .accordion-item:nth-child(2) .accordion-item-content .range > span{
     margin-right: .5rem;
 }
+.range{
+    position: relative;
+}
+.rangeOk{
+    border-radius: 3px;
+    border: 1px solid #00000030;
+    padding: .3rem 1rem;
+    position: absolute;
+    right: 0;
+}
+.rangeOk:hover{
+    background: #00000030;
+}
 
 input[type=checkbox] + label, input[type=radio] + label{
     font-size: 0.8rem;
 }
+
 
 
