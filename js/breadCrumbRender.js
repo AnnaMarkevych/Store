@@ -16,6 +16,7 @@ function breadCrumbRender(title) {
     breadCrumbBeforeLast.addEventListener('click', () => {
         store_catalog.classList.remove('hidden');
         filter.classList.remove('visible');
+        // btnFilter.classList.remove('visible');
         store_category.classList.remove('visible');
         breadCrumbLast.remove();
 
@@ -26,11 +27,16 @@ function breadCrumbRender(title) {
         store_catalog.classList.remove('hidden');
         store_category.classList.remove('visible');
         filter.classList.remove('visible');
+        // btnFilter.classList.remove('visible');
+
+        // productFilter.brand = ['FIT PRODUCT', 'ORGANIC', 'NEW LINE'];
+        // productFilter.price= [0, 1000];
 
         catalogMenuRender = new CatalogMenuRender(catalogMenu, store_catalog);
         catalogMenuRender.render();
 
         breadCrumb.remove();
+
     });
 
 }

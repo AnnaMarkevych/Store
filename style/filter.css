@@ -93,10 +93,11 @@ input[type=range]+p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*color: #fefaf9;*/
-    margin: 0;
     width: 100%;
+    font-family: 'Kerola';
+    font-size: 0.7rem;
 }
+
 
 .accordion-item:nth-child(2) .accordion-item-content .range > span:nth-child(odd){
     font-family: "Kerola Bold";
@@ -127,6 +128,38 @@ input[type=range]+p{
 
 input[type=checkbox] + label, input[type=radio] + label{
     font-size: 0.8rem;
+}
+#btnFilter{
+    display: none;
+}
+@media (max-width: 1200px){
+    #filter{
+        width: 278px;
+    }
+
+}
+@media (max-width: 992px) {
+    #btnFilter.visible{
+        display: block;
+        border-radius: 3px;
+        border: 1px solid #00000030;
+        padding: .3rem 1rem;
+        margin: 1rem 0 0 1rem;
+    }
+    #btnFilter:hover{
+        background: #00000030;
+    }
+    #filter.visible{
+        z-index: 5;
+        background: aliceblue;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 500px){
+    #filter{
+        width: 100%;
+    }
+
 }
 
 

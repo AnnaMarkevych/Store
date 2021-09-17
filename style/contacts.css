@@ -50,3 +50,8 @@
 .networks a > img {
     width: 35px;
 }
+@media (max-width: 768px){
+    .container-contacts{
+        width: 99%;
+    }
+}

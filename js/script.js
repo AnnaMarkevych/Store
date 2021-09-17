@@ -1401,6 +1401,7 @@ let productsRender;
 let store_category = document.querySelector('#store');
 let store_catalog = document.querySelector('#store_catalog');
 let filter = document.querySelector('#filter');
+let btnFilter = document.querySelector('#btnFilter');
 
 let cartHtml = document.querySelector('#cart');
 let cartRender = new CartRender(cart, cartHtml, {
@@ -1430,6 +1431,8 @@ let catalog = document.querySelector('.catalog-menu');
 let contacts = document.querySelector('.container-contacts');
 let btnCatalog = document.querySelector('#btn_catalog');
 let btnContacts = document.querySelector('#btn_contacts');
+let btnBurger = document.querySelector('.navigation-burger');
+
 
 btnCart.addEventListener('click', ()=>{
     cartHtml.classList.add('active');
@@ -1453,6 +1456,14 @@ overlay.addEventListener('click', ()=>{
     overlay.classList.remove('active');
     catalog.classList.remove('active');
     contacts.classList.remove('active');
+});
+
+btnBurger.addEventListener('click', ()=>{
+    catalog.classList.add('active');
+    overlay.classList.add('active');
+
+    let catalogRender = new CatalogRender(catalogMenu, catalog);
+    catalogRender.render();
 });
 
 

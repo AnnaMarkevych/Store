@@ -51,11 +51,36 @@ class CatalogMenuRender {
                 store_category.classList.add('visible');
                 filter.classList.add('visible');
 
+                // if (screen.width < 992){
+                //     btnFilter.classList.add('visible');
+                //     filter.classList.remove('visible');
+                //     console.log(screen.width);
+                //     console.log(btnFilter);
+                //
+                //     btnFilter.addEventListener('click', ()=>{
+                //         // filter.classList.toggle('visible');
+                //         if (!filter.classList.contains('visible')){
+                //             filter.classList.add('visible');
+                //             console.log('Filter visible');
+                //         }
+                //         else {
+                //             filter.classList.remove('visible');
+                //             console.log('Filter NOT visible');
+                //         }
+                //
+                //     })
+                // } else {
+                //     filter.classList.add('visible');
+                // }
+
+
+
                 if (category.subProducts === undefined ){
                     productsRender = new ProductsRender(category.products, store_category, buyButtonClickCallback, category.sale);
                     productsRender.render();
                 } else {
                     filter.classList.remove('visible');
+                    // btnFilter.classList.remove('visible');
                     store_catalog.innerHTML = '';
                     store_catalog.classList.remove('hidden');
                     store_category.classList.remove('visible');
