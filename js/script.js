@@ -11,10 +11,7 @@ let catalogMenu = [
                 url: 'card_1',
                 price: '26.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor \' +\n' +
-                '        \'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \' +\n' +
-                '        \'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Fit Product',
                 availability: true,
                 sale: '10%'
@@ -25,8 +22,7 @@ let catalogMenu = [
                 url: 'card_2',
                 price: '35.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Fit Product',
                 availability: false,
                 sale: '10%'
@@ -37,8 +33,7 @@ let catalogMenu = [
                 url: 'card_3',
                 price: '19.50',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Organic',
                 availability: true,
                 sale: '15%'
@@ -49,8 +44,7 @@ let catalogMenu = [
                 url: 'card_4',
                 price: '25.50',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Organic',
                 availability: false,
                 sale: '15%'
@@ -61,8 +55,7 @@ let catalogMenu = [
                 url: 'card_5',
                 price: '29.50',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                'incididunt ut labore et dolore magna aliqua.',
                 brand: 'New Line',
                 availability: true,
                 sale: '10%'
@@ -73,8 +66,7 @@ let catalogMenu = [
                 url: 'card_6',
                 price: '20.50',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Fit Product',
                 availability: true,
                 sale: '20%'
@@ -85,8 +77,7 @@ let catalogMenu = [
                 url: 'cherry',
                 price: '56.00',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Organic',
                 availability: true,
                 sale: '5%'
@@ -97,8 +88,7 @@ let catalogMenu = [
                 url: 'lime',
                 price: '48.60',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                'incididunt ut labore et dolore magna aliqua.',
                 brand: 'Organic',
                 availability: true,
                 sale: '5%'
@@ -109,8 +99,7 @@ let catalogMenu = [
                 url: 'lemon',
                 price: '32.50',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                'incididunt ut labore et dolore magna aliqua.',
                 brand: 'New Line',
                 availability: true,
                 sale: '8%'
@@ -128,9 +117,7 @@ let catalogMenu = [
                 title: 'Potatoes',
                 url: 'potatoes',
                 price: '11.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ' +
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
                 brand: 'Organic',
                 availability: true,
                 sale: '10%'
@@ -140,8 +127,7 @@ let catalogMenu = [
                 title: 'Carrot',
                 url: 'carrot',
                 price: '15.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ',
                 brand: 'Organic',
                 availability: true,
                 sale: '10%'
@@ -151,8 +137,7 @@ let catalogMenu = [
                 title: 'Onion',
                 url: 'onion',
                 price: '12.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                 brand: 'Fit Product',
                 availability: true,
                 sale: '10%'
@@ -162,8 +147,7 @@ let catalogMenu = [
                 title: 'Zucchini',
                 url: 'zucchini',
                 price: '18.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
                 brand: 'Fit Product',
                 availability: true,
                 sale: '10%'
@@ -173,8 +157,7 @@ let catalogMenu = [
                 title: 'Eggplant',
                 url: 'eggplant',
                 price: '28.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
                 brand: 'Fit Product',
                 availability: false,
                 sale: '10%'
@@ -184,8 +167,7 @@ let catalogMenu = [
                 title: 'Cabbage',
                 url: 'cabbage',
                 price: '6.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
                 brand: 'Organic',
                 availability: true,
                 sale: '10%'
@@ -195,8 +177,7 @@ let catalogMenu = [
                 title: 'Brokkoli',
                 url: 'brokkoli',
                 price: '18.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                 brand: 'Organic',
                 availability: true,
                 sale: '10%'
@@ -206,8 +187,7 @@ let catalogMenu = [
                 title: 'Mashrooms',
                 url: 'mashrooms',
                 price: '30.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
                 brand: 'New Line',
                 availability: true,
                 sale: '10%'
@@ -326,8 +306,7 @@ let catalogMenu = [
                         title: 'Caramel5',
                         url: 'caramel5',
                         price: '15.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -337,8 +316,7 @@ let catalogMenu = [
                         title: 'Caramel6',
                         url: 'caramel6',
                         price: '15.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. ',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,  ',
                         brand: 'New Line',
                         availability: false,
                         sale: '10%'
@@ -348,8 +326,7 @@ let catalogMenu = [
                         title: 'Caramel7',
                         url: 'caramel7',
                         price: '15.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. ',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -359,8 +336,7 @@ let catalogMenu = [
                         title: 'Caramel8',
                         url: 'caramel8',
                         price: '15.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. ',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  ',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -370,8 +346,7 @@ let catalogMenu = [
                         title: 'Caramel9',
                         url: 'caramel9',
                         price: '15.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. ',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -381,8 +356,7 @@ let catalogMenu = [
                         title: 'Caramel10',
                         url: 'caramel10',
                         price: '15.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. ',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -392,8 +366,7 @@ let catalogMenu = [
                         title: 'Caramel11',
                         url: 'caramel11',
                         price: '15.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua. ',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ',
                         brand: 'Fit Product',
                         availability: false,
                         sale: '10%'
@@ -598,8 +571,7 @@ let catalogMenu = [
                 title: 'Bread',
                 url: 'bread',
                 price: '20.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
                 brand: 'Organic',
                 availability: true,
                 sale: '10%'
@@ -609,8 +581,7 @@ let catalogMenu = [
                 title: 'Baguette',
                 url: 'baguette',
                 price: '22.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
                 brand: 'Organic',
                 availability: true,
                 sale: '10%'
@@ -620,8 +591,7 @@ let catalogMenu = [
                 title: 'Ciabatta',
                 url: 'ciabatta',
                 price: '25.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                 brand: 'Fit Product',
                 availability: true,
                 sale: '10%'
@@ -631,8 +601,7 @@ let catalogMenu = [
                 title: 'Croissant',
                 url: 'croissant',
                 price: '15.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
                 brand: 'Fit Product',
                 availability: true,
                 sale: '10%'
@@ -642,8 +611,7 @@ let catalogMenu = [
                 title: 'Bun',
                 url: 'buns',
                 price: '8.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                 brand: 'New Line',
                 availability: true,
                 sale: '10%'
@@ -653,8 +621,7 @@ let catalogMenu = [
                 title: 'Puff',
                 url: 'puff',
                 price: '12.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                 brand: 'Fit Product',
                 availability: false,
                 sale: '10%'
@@ -664,8 +631,7 @@ let catalogMenu = [
                 title: 'Donut',
                 url: 'donuts',
                 price: '10.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                 brand: 'New Line',
                 availability: true,
                 sale: '10%'
@@ -675,8 +641,7 @@ let catalogMenu = [
                 title: 'Apple strudel',
                 url: 'strudel',
                 price: '100.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                 brand: 'Fit Product',
                 availability: false,
                 sale: '10%'
@@ -686,8 +651,7 @@ let catalogMenu = [
                 title: 'Cookies',
                 url: 'cookies',
                 price: '26.00',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                'incididunt ut labore et dolore magna aliqua.',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                 brand: 'Organic',
                 availability: true,
                 sale: '10%'
@@ -709,8 +673,7 @@ let catalogMenu = [
                         title: 'Groats1',
                         url: 'groats1',
                         price: '35.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -720,8 +683,7 @@ let catalogMenu = [
                         title: 'Groats2',
                         url: 'groats2',
                         price: '55.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -731,8 +693,7 @@ let catalogMenu = [
                         title: 'Groats3',
                         url: 'groats3',
                         price: '35.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -742,8 +703,7 @@ let catalogMenu = [
                         title: 'Groats4',
                         url: 'groats4',
                         price: '45.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -753,8 +713,7 @@ let catalogMenu = [
                         title: 'Groats5',
                         url: 'groats5',
                         price: '30.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -764,8 +723,7 @@ let catalogMenu = [
                         title: 'Groats6',
                         url: 'groats6',
                         price: '60.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -775,8 +733,7 @@ let catalogMenu = [
                         title: 'Groats7',
                         url: 'groats7',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -795,8 +752,7 @@ let catalogMenu = [
                         title: 'Pasta1',
                         url: 'pasta1',
                         price: '120.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -806,8 +762,7 @@ let catalogMenu = [
                         title: 'Pasta2',
                         url: 'pasta2',
                         price: '100.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -817,8 +772,7 @@ let catalogMenu = [
                         title: 'Pasta3',
                         url: 'pasta3',
                         price: '85.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -828,8 +782,7 @@ let catalogMenu = [
                         title: 'Pasta4',
                         url: 'pasta4',
                         price: '95.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -839,8 +792,7 @@ let catalogMenu = [
                         title: 'Pasta5',
                         url: 'pasta5',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -850,8 +802,7 @@ let catalogMenu = [
                         title: 'Pasta6',
                         url: 'pasta6',
                         price: '80.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -861,8 +812,7 @@ let catalogMenu = [
                         title: 'Pasta7',
                         url: 'pasta7',
                         price: '90.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -872,8 +822,7 @@ let catalogMenu = [
                         title: 'Pasta8',
                         url: 'pasta8',
                         price: '80.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -883,8 +832,7 @@ let catalogMenu = [
                         title: 'Pasta9',
                         url: 'pasta9',
                         price: '100.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -894,8 +842,7 @@ let catalogMenu = [
                         title: 'Pasta10',
                         url: 'pasta101',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -905,8 +852,7 @@ let catalogMenu = [
                         title: 'Pasta11',
                         url: 'pasta11',
                         price: '90.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -916,8 +862,7 @@ let catalogMenu = [
                         title: 'Pasta12',
                         url: 'pasta12',
                         price: '120.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -927,8 +872,7 @@ let catalogMenu = [
                         title: 'Pasta13',
                         url: 'pasta13',
                         price: '110.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -956,8 +900,7 @@ let catalogMenu = [
                         title: 'Cheese1',
                         url: 'cheese1',
                         price: '290.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -967,8 +910,7 @@ let catalogMenu = [
                         title: 'Cheese2',
                         url: 'cheese2',
                         price: '60.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -978,8 +920,7 @@ let catalogMenu = [
                         title: 'Cheese3',
                         url: 'cheese3',
                         price: '290.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -989,8 +930,7 @@ let catalogMenu = [
                         title: 'Mozzarella',
                         url: 'cheese4',
                         price: '200.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1000,8 +940,7 @@ let catalogMenu = [
                         title: 'Brinza',
                         url: 'cheese5',
                         price: '250.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Organic',
                         availability: false,
                         sale: '10%'
@@ -1011,8 +950,7 @@ let catalogMenu = [
                         title: 'Feta',
                         url: 'cheese6',
                         price: '300.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1022,8 +960,7 @@ let catalogMenu = [
                         title: 'Parmesan',
                         url: 'cheese7',
                         price: '690.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'New Line',
                         availability: false,
                         sale: '10%'
@@ -1089,7 +1026,7 @@ let catalogMenu = [
                         title: 'Milk 1%',
                         url: 'milk1',
                         price: '29.00',
-                        description: '1l',
+                        description: 'Lorem ipsum dolor sit amet,',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -1099,7 +1036,7 @@ let catalogMenu = [
                         title: 'Milk 2,6%',
                         url: 'milk2',
                         price: '32.00',
-                        description: '1l',
+                        description: 'Lorem ipsum dolor sit amet,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1109,7 +1046,7 @@ let catalogMenu = [
                         title: 'Milk 3,2%',
                         url: 'milk3',
                         price: '36.00',
-                        description: '1l',
+                        description: 'Lorem ipsum dolor sit amet,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -1135,8 +1072,7 @@ let catalogMenu = [
                         title: 'Fresh1',
                         url: 'fresh1',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1146,8 +1082,7 @@ let catalogMenu = [
                         title: 'Fresh2',
                         url: 'fresh2',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet,',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -1157,8 +1092,7 @@ let catalogMenu = [
                         title: 'Fresh3',
                         url: 'fresh3',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -1168,8 +1102,7 @@ let catalogMenu = [
                         title: 'Fresh4',
                         url: 'fresh4',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Fit Product',
                         availability: false,
                         sale: '10%'
@@ -1179,8 +1112,7 @@ let catalogMenu = [
                         title: 'Fresh5',
                         url: 'fresh5',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -1190,8 +1122,7 @@ let catalogMenu = [
                         title: 'Fresh6',
                         url: 'fresh6',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -1201,8 +1132,7 @@ let catalogMenu = [
                         title: 'Fresh7',
                         url: 'fresh7',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1212,8 +1142,7 @@ let catalogMenu = [
                         title: 'Fresh8',
                         url: 'fresh8',
                         price: '75.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet.',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1230,8 +1159,7 @@ let catalogMenu = [
                         title: 'Smuzi1',
                         url: 'smuzi1',
                         price: '100.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -1241,8 +1169,7 @@ let catalogMenu = [
                         title: 'Smuzi2',
                         url: 'smuzi2',
                         price: '100.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1252,8 +1179,7 @@ let catalogMenu = [
                         title: 'Smuzi3',
                         url: 'smuzi3',
                         price: '100.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -1263,8 +1189,7 @@ let catalogMenu = [
                         title: 'Smuzi4',
                         url: 'smuzi4',
                         price: '100.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1274,8 +1199,7 @@ let catalogMenu = [
                         title: 'Smuzi5',
                         url: 'smuzi5',
                         price: '100.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -1285,8 +1209,7 @@ let catalogMenu = [
                         title: 'Smuzi6',
                         url: 'smuzi6',
                         price: '100.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -1296,8 +1219,7 @@ let catalogMenu = [
                         title: 'Smuzi7',
                         url: 'smuzi7',
                         price: '100.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet,',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1316,8 +1238,7 @@ let catalogMenu = [
                         title: 'Alko1',
                         url: 'alko1',
                         price: '200.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -1327,8 +1248,7 @@ let catalogMenu = [
                         title: 'Alko2',
                         url: 'alko2',
                         price: '200.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1338,8 +1258,7 @@ let catalogMenu = [
                         title: 'Alko3',
                         url: 'alko3',
                         price: '200.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'New Line',
                         availability: true,
                         sale: '10%'
@@ -1349,8 +1268,7 @@ let catalogMenu = [
                         title: 'Alko4',
                         url: 'alko4',
                         price: '200.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1360,8 +1278,7 @@ let catalogMenu = [
                         title: 'Alko5',
                         url: 'alko5',
                         price: '200.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'
@@ -1371,8 +1288,7 @@ let catalogMenu = [
                         title: 'Alko6',
                         url: 'alko6',
                         price: '200.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Fit Product',
                         availability: true,
                         sale: '10%'
@@ -1382,8 +1298,7 @@ let catalogMenu = [
                         title: 'Alko7',
                         url: 'alko7',
                         price: '200.00',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-                        'incididunt ut labore et dolore magna aliqua.',
+                        description: 'Lorem ipsum dolor sit amet, ',
                         brand: 'Organic',
                         availability: true,
                         sale: '10%'

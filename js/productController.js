@@ -9,7 +9,6 @@ class ProductController {
 
         this.cart.addProduct(product);
 
-        // console.log('buy product');
     }
 
     getProduct(productId) {

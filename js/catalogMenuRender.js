@@ -49,6 +49,7 @@ class CatalogMenuRender {
             categoryHtml.addEventListener('click', ()=>{
                 store_catalog.classList.add('hidden');
                 store_category.classList.add('visible');
+                store_category.setAttribute('data-category', category.title.toLowerCase());
                 filter.classList.add('visible');
 
                 // if (screen.width < 992){

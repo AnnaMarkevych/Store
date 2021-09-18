@@ -31,6 +31,15 @@ class CartRender {
         cartHeaderButtonDelete.classList.add('cart_header-btn-delete');
         cartHeader.appendChild(cartHeaderButtonDelete);
 
+        cartHeaderButtonDelete.addEventListener('click', () => {
+            let lines = this.rootElement.querySelectorAll('.cart_list__item');
+            for (let i = 0; i < lines.length; i++) {
+                if (lines[i].querySelector('.cart_list__item-check').getAttribute('checked') === 'true'){
+                    lines[i].querySelector('.delete-item').click();
+                }
+            }
+        });
+
         let cartHeaderButtonDeleteImg = document.createElement('img');
         cartHeaderButtonDeleteImg.setAttribute('src', 'assets/images/icon_delete.png');
         cartHeaderButtonDelete.appendChild(cartHeaderButtonDeleteImg);
@@ -262,6 +271,7 @@ class CartRender {
         let cartListColumn6 = document.createElement('button');
         cartListColumn6.classList.add('cart_list__item-column');
         cartListColumn6.classList.add('no-hover');
+        cartListColumn6.classList.add('delete-item');
         cartListItem.appendChild(cartListColumn6);
 
         cartListColumn6.addEventListener('click',()=>{
